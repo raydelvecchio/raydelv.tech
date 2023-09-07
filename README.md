@@ -1,11 +1,13 @@
 # Ray Del Vecchio's Website
 Website found at [raydelv.tech](https://raydelv.tech). Made with React. 
 
+# Notes
+* `raydelv.tech/public/_redirects` tells Netlify to use React router's default redirect, not Netlify's
+* `raydelv.tech/public/robots.txt` defines how bots/crawlers/scrapers interact with the site (not optimized yet)
+
 # TODO
-* Add links bar at the bottom of the page (LinkedIn, GitHub, Twitter, Skilldeck)
 * Sections for the following:
-  * About (where I'm from, school, )
-  * Projects / Code work (nima, raverec, swiftai, many other small projects)
+  * About (where I'm from, school, moving around as a kid, playing with computers in elementary school now I do for a living)
+  * Projects / Code work (nima, raverec, swiftai, many other small projects, TA for DL)
   * Research (ISEF, object states, SUS encoding)
   * Investing (Nima, personally pfizer/moderna/AMD/palantir, BHIG, BSRE, skilldeck angel investment)
-  * Fun facts (Surfing, 3rd in the world for Bo Staff, raves, hosting events, lived in facebook house, used to be premed / chem major and took orgo 1/2 in high school, nationally ranked in debate) 

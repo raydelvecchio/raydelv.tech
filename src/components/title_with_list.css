@@ -1,9 +1,4 @@
 .centered-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -25,11 +20,35 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .message {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+a {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;  /* Adjust the thickness of the underline */
+    text-underline-offset: 3px;
+}
+
+.a:hover {
+    color: darkred;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.bullet-list-container {
+    width: 500px;  /* Adjust as needed */
+    height: 200px;  /* Adjust as needed */
 }
