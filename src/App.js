@@ -1,17 +1,16 @@
-import './App.css';
 import React from 'react';
-import './App.css';
-import SocialLinks from "./components/SocialLinks";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from "./components/Home";
 
 function App() {
     return (
-        <div className="container">
-            <div className="message">
-                Hey, I'm Ray.
-            </div>
-            <SocialLinks />
-        </div>
-    );
+        <Router>
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="*" element={<Home />} />
+            </Routes>
+        </Router>
+);
 }
 
 export default App;
