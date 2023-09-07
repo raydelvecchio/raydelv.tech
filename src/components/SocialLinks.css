@@ -1,16 +1,16 @@
 .social-container {
-    position: absolute; /* or 'fixed' if you want it to stay at the bottom left even on scroll */
-    left: 10px; /* space from the left side */
-    bottom: 10px; /* space from the bottom */
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
     display: flex;
     gap: 20px;
 }
 
 a {
-    color: inherit;
+    color: black;
     transition: color 0.2s;
 }
 
 a:hover {
-    color: #0077b5;
+    color: darkred;
 }

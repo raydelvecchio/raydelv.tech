@@ -1,15 +1,30 @@
 import React from 'react';
 import './Home.css';
+import './title_with_list.css'
 import SocialLinks from "./SocialLinks";
-import LinksList from "./LinksList";
 
 function Home() {
+    const links = [
+        { label: 'Existing', url: '/about' },
+        { label: 'Coding', url: '/technology' },
+        { label: 'Researching', url: '/research' },
+        { label: 'Investing', url: '/investing' },
+        { label: 'Enjoying', url: '/fun' },
+        { label: 'Contacting', url: '/contact' }
+    ];
+
     return (
         <div className="container">
             <div className="message">
-                Hey, I'm Ray.
+                Hey, I'm <span className="highlight">Ray</span>. Here are some things I do.
             </div>
-            <LinksList />
+            <div className="centered-list">
+                {links.map((link, index) => (
+                    <a key={index} href={link.url} className="item">
+                        {link.label}
+                    </a>
+                ))}
+            </div>
             <SocialLinks />
         </div>
     );
