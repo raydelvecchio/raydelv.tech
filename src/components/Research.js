@@ -2,13 +2,13 @@ import "./title_with_list.css"
 import SocialLinks from "./SocialLinks";
 import React from "react";
 
-function Misc() {
+function Research() {
     return (
         <div>
             <div className="container">
                 <div className="content-wrapper">
                     <div className="message">
-                        Get to know me with these facts.
+                        I've done some research before.
                     </div>
                     <div className="centered-list">
                         <div className="bullet-list-container">
@@ -44,4 +44,4 @@ function Misc() {
     );
 }
 
-export default Misc;
+export default Research;

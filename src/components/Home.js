@@ -18,7 +18,7 @@ function Home() {
             <div className="container">
                 <div className="content-wrapper">
                     <div className="message">
-                        Hey, I'm <span className="highlight">Ray</span>. Here are some things I do.
+                        Hey, I'm <span className="highlight">Ray</span>! Here are some things I do.
                     </div>
                     <div className="centered-list">
                         {links.map((link, index) => (
