@@ -14,7 +14,7 @@ function Misc() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I hold a second degree black belt in ITF Taekwondo and was once 3rd in the world for <a href="https://centurymartialarts.com/collections/bo-staff">Bo Staff</a> performance
+                                    I hold a second degree black belt in ITF Taekwondo and was once 3rd in the world for <a className="link" href="https://centurymartialarts.com/collections/bo-staff" target="_blank" rel="noopener noreferrer">Bo Staff</a> performance
                                 </li>
                                 <li>
                                     I was ranked nationally in the NCFL PF debate circuit
@@ -29,10 +29,10 @@ function Misc() {
                                     I used to be a pre-med student and took two college semesters of organic chemistry in high school
                                 </li>
                                 <li>
-                                    For the summer of 2022, I lived at <a href="https://www.businessinsider.com/facebook-house-inside-palo-alto-home-mark-zuckerberg-la-jennifer-2017-12">819 La Jennifer Way</a> with a bunch of GSB students
+                                    For the summer of 2022, I lived at <a className="link" href="https://www.businessinsider.com/facebook-house-inside-palo-alto-home-mark-zuckerberg-la-jennifer-2017-12" target="_blank" rel="noopener noreferrer">819 La Jennifer Way</a> with a bunch of GSB students
                                 </li>
                                 <li>
-                                    I love <a href="https://en.wikipedia.org/wiki/Electronic_dance_music">EDM</a>. I've attended EZOO (2x), Countdown, Beyond Wonderland, Breakaway Carolina, Daytrip Seattle, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Deorro, Jiqui, and Muerte. Upcoming: Breakaway Boston, Escape, Apocalypse, Countdown, Thunderdome, and EDC Las Vegas.
+                                    I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, Beyond Wonderland, Breakaway Carolina, Daytrip Seattle, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Deorro, Jiqui, and Muerte. Upcoming: Breakaway Boston, Escape, Apocalypse, Countdown, Thunderdome, and EDC Las Vegas.
                                 </li>
                             </ul>
                         </div>

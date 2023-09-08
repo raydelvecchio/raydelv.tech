@@ -4,7 +4,6 @@
     bottom: 10px;
     display: flex;
     gap: 20px;
-    z-index: -1;
 }
 
 a {

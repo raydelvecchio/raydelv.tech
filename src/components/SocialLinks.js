@@ -11,7 +11,7 @@ const SocialLinks = () => {
             <a href="https://github.com/raydelvecchio" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={32} />
             </a>
-            <a href="https://x.com/raydelvecc" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/raydelvecc" target="_blank" rel="noopener noreferrer">
                 <FaTwitter size={32} />
             </a>
         </div>
