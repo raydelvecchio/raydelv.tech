@@ -13,15 +13,17 @@ function Contact() {
 
     return (
         <div className="container">
-            <div className="message">
-                I have a few ways to get in touch.
-            </div>
-            <div className="centered-list">
-                {links.map((link, index) => (
-                    <a key={index} href={link.url} target="_blank" rel="noopener noreferrer" className="item">
-                        {link.label}
-                    </a>
-                ))}
+            <div className="content-wrapper">
+                <div className="message">
+                    I have a few ways to get in touch.
+                </div>
+                <div className="centered-list">
+                    {links.map((link, index) => (
+                        <a key={index} href={link.url} target="_blank" rel="noopener noreferrer" className="item">
+                            {link.label}
+                        </a>
+                    ))}
+                </div>
             </div>
             <SocialLinks />
         </div>
