@@ -2,13 +2,13 @@ import "./title_with_list.css"
 import SocialLinks from "./SocialLinks";
 import React from "react";
 
-function Misc() {
+function Teaching() {
     return (
         <div>
             <div className="container">
                 <div className="content-wrapper">
                     <div className="message">
-                        Get to know me with these facts.
+                        It's great to share knowledge.
                     </div>
                     <div className="centered-list">
                         <div className="bullet-list-container">
@@ -32,9 +32,6 @@ function Misc() {
                                     For the summer of 2022, I lived at <a className="link" href="https://www.businessinsider.com/facebook-house-inside-palo-alto-home-mark-zuckerberg-la-jennifer-2017-12" target="_blank" rel="noopener noreferrer">819 La Jennifer Way</a> with a bunch of GSB students
                                 </li>
                                 <li>
-                                    In 2020, I co-founded a startup <a className="link" href="https://hyphora.org" target="_blank" rel="noopener noreferrer">Hyphora</a> (now inactive) where I ran marketing and product
-                                </li>
-                                <li>
                                     I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, Beyond Wonderland, Breakaway Carolina, Daytrip Seattle, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Deorro, Jiqui, and Muerte. Upcoming: Breakaway Boston, Escape, Apocalypse, Countdown, Thunderdome, and EDC Las Vegas.
                                 </li>
                             </ul>
@@ -47,4 +44,4 @@ function Misc() {
     );
 }
 
-export default Misc;
+export default Teaching;
