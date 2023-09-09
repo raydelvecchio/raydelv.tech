@@ -14,25 +14,16 @@ function Research() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I hold a second degree black belt in ITF Taekwondo and was once 3rd in the world for <a className="link" href="https://centurymartialarts.com/collections/bo-staff" target="_blank" rel="noopener noreferrer">Bo Staff</a> performance
+                                    I'm an <a className="link" href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener noreferrer">ISEF</a> finalist; my project was on using machine learning to identify potential biomarkers for <a className="link" href="https://www.cdc.gov/parasites/chagas/gen_info/detailed.html" target="_blank" rel="noopener noreferrer">Chagas Disease</a> in urine
                                 </li>
                                 <li>
-                                    I was ranked nationally in the NCFL PF debate circuit
+                                    In GMU's <a className="link" href="https://capmm.science.gmu.edu/" target="_blank" rel="noopener noreferrer">Center for Applied Proteomics and Molecular Medicine</a>, I worked under professors Alessandra Luchini and Lance Liotta over 1.5 years. I completed projects in analyzing mass spectrometry results with statistical and machine learning methods to search for markers of Lung Cancer, Lyme Disease, Babesiosis, and Chagas Disease. Here, I learned wet lab and bioinformatic techniques, as well as the patience research process.
                                 </li>
                                 <li>
-                                    My current hobbies include surfing (when I can), bouldering (V2/3 right now), and basic music production
+                                    I spent a semester completing an independent study in Professor <a className="link" href="https://chensun.me" target="_blank" rel="noopener noreferrer">Chen Sun</a>'s PALM lab, researching engineering methods in deep learning to detect object states
                                 </li>
                                 <li>
-                                    I'm a passionate event host who enjoys meeting new people, and have held pool parties, pizza nights, and taco tuesdays in Palo Alto and San Francisco, as well as networking events for Brown's Entrepreneurship Program in Providence
-                                </li>
-                                <li>
-                                    I used to be a pre-med student and took two college semesters of organic chemistry in high school
-                                </li>
-                                <li>
-                                    For the summer of 2022, I lived at <a className="link" href="https://www.businessinsider.com/facebook-house-inside-palo-alto-home-mark-zuckerberg-la-jennifer-2017-12" target="_blank" rel="noopener noreferrer">819 La Jennifer Way</a> with a bunch of GSB students
-                                </li>
-                                <li>
-                                    I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, Beyond Wonderland, Breakaway Carolina, Daytrip Seattle, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Deorro, Jiqui, and Muerte. Upcoming: Breakaway Boston, Escape, Apocalypse, Countdown, Thunderdome, and EDC Las Vegas.
+                                    For CS2952N <a className="link" href="https://cs.brown.edu/courses/info/csci2952-n/" target="_blank" rel="noopener noreferrer">CS2952N</a>, other students and I completed a research project exploring a Shared Uniform Space (SUS) to allow generalist/multitask agents to complete tasks accurately with no preprocessing of inputs. You can find the report <a className="link" href="/SUS_Embedding.pdf" download>here</a>.
                                 </li>
                             </ul>
                         </div>

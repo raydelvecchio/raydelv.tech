@@ -11,4 +11,3 @@ Website found at [raydelv.tech](https://raydelv.tech). Made with React.
     * ISEF / biochem projects (explain each / presentations)
     * Object States in Chen Sun's PALM Lab
     * SUS Encoding independent project
-    * Researched MEV strategies on-chain for Nima Capital
