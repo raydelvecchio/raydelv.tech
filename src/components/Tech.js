@@ -14,25 +14,16 @@ function Tech() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I hold a second degree black belt in ITF Taekwondo and was once 3rd in the world for <a className="link" href="https://centurymartialarts.com/collections/bo-staff" target="_blank" rel="noopener noreferrer">Bo Staff</a> performance
+                                    I work at Nima Capital, where I manage cloud infrastructure, automate trading strategies, perform data analytics, write internal tools for equities analysis, social media, and alerting, AI engineering, and quantitative development
                                 </li>
                                 <li>
-                                    I was ranked nationally in the NCFL PF debate circuit
+                                    My favorite personal project was <a className="link" href="https://github.com/raydelvecchio/SwiftAI-v2" target="_blank" rel="noopener noreferrer">SwiftAIv2</a> (Python, Huggingface, PyTorch), an LLM fine tuned to write new Taylor Swift songs (improved upon my original <a className="link" href="https://github.com/raydelvecchio/SwiftAI" target="_blank" rel="noopener noreferrer">v1</a>)
                                 </li>
                                 <li>
-                                    My current hobbies include surfing (when I can), bouldering (V2/3 right now), and basic music production
+                                    I'm currently working on RaveRec, an ML tool to automatically DJ a party based on crowd feedback (published soon)
                                 </li>
                                 <li>
-                                    I'm a passionate event host who enjoys meeting new people, and have held pool parties, pizza nights, and taco tuesdays in Palo Alto and San Francisco, as well as networking events for Brown's Entrepreneurship Program in Providence
-                                </li>
-                                <li>
-                                    I used to be a pre-med student and took two college semesters of organic chemistry in high school
-                                </li>
-                                <li>
-                                    For the summer of 2022, I lived at <a className="link" href="https://www.businessinsider.com/facebook-house-inside-palo-alto-home-mark-zuckerberg-la-jennifer-2017-12" target="_blank" rel="noopener noreferrer">819 La Jennifer Way</a> with a bunch of GSB students
-                                </li>
-                                <li>
-                                    I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, Beyond Wonderland, Breakaway Carolina, Daytrip Seattle, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Deorro, Jiqui, and Muerte. Upcoming: Breakaway Boston, Escape, Apocalypse, Countdown, Thunderdome, and EDC Las Vegas.
+                                    Through my time coding, I've completed a number of small projects as well, such as a remote controlled water gun (Arduino, Blynk, C++), a camera control virus (Kali Linux), variational autoencoder (VAE) for similar molecule generation (Python, Tensorflow), full GUI and playable pacman (Java, JavaFX), on-chain maximum extractable value (MEV) bots (Ethers.js, web3.js, Typescript, Solidity), and more
                                 </li>
                             </ul>
                         </div>
