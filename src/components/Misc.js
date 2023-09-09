@@ -1,4 +1,4 @@
-import "./title_with_list.css"
+import "./global.css"
 import SocialLinks from "./SocialLinks";
 import React from "react";
 
@@ -33,6 +33,9 @@ function Misc() {
                                 </li>
                                 <li>
                                     In 2020, I co-founded a startup <a className="link" href="https://hyphora.org" target="_blank" rel="noopener noreferrer">Hyphora</a> (now inactive) where I ran marketing and product
+                                </li>
+                                <li>
+                                    Loquor quidam latine
                                 </li>
                                 <li>
                                     I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, Beyond Wonderland, Breakaway Carolina, Daytrip Seattle, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Deorro, Jiqui, and Muerte. Upcoming: Breakaway Boston, Escape, Apocalypse, Countdown, Thunderdome, and EDC Las Vegas.

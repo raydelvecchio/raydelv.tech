@@ -1,4 +1,4 @@
-import "./title_with_list.css"
+import "./global.css"
 import SocialLinks from "./SocialLinks";
 import React from "react";
 

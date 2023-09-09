@@ -1,4 +1,4 @@
-import "./title_with_list.css"
+import "./global.css"
 import SocialLinks from "./SocialLinks";
 import React from "react";
 
@@ -14,25 +14,13 @@ function Teaching() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I hold a second degree black belt in ITF Taekwondo and was once 3rd in the world for <a className="link" href="https://centurymartialarts.com/collections/bo-staff" target="_blank" rel="noopener noreferrer">Bo Staff</a> performance
+                                    Teaching assistant for Brown's <a className="link" href="https://cs.brown.edu/courses/info/csci1470/" target="_blank" rel="noopener noreferrer">Deep Learning</a> (2 semesters), where responsibilities included holding office hours for conceptual understanding/debugging, writing course content and coding assignments, grading projects, mentoring/judging final projects
                                 </li>
                                 <li>
-                                    I was ranked nationally in the NCFL PF debate circuit
+                                    Teaching assistant for <i>Entrepreneurial Management in Adversity</i> (<a className="link" href="https://entrepreneurship.brown.edu/courses/" target="_blank" rel="noopener noreferrer">ENGN1931Q</a>) with Professor Howard Anderson (founder, Battery Ventures, Yankee Group), where I graded/advised consulting assignments, ran course logistics, and hosted guest speakers
                                 </li>
                                 <li>
-                                    My current hobbies include surfing (when I can), bouldering (V2/3 right now), and basic music production
-                                </li>
-                                <li>
-                                    I'm a passionate event host who enjoys meeting new people, and have held pool parties, pizza nights, and taco tuesdays in Palo Alto and San Francisco, as well as networking events for Brown's Entrepreneurship Program in Providence
-                                </li>
-                                <li>
-                                    I used to be a pre-med student and took two college semesters of organic chemistry in high school
-                                </li>
-                                <li>
-                                    For the summer of 2022, I lived at <a className="link" href="https://www.businessinsider.com/facebook-house-inside-palo-alto-home-mark-zuckerberg-la-jennifer-2017-12" target="_blank" rel="noopener noreferrer">819 La Jennifer Way</a> with a bunch of GSB students
-                                </li>
-                                <li>
-                                    I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, Beyond Wonderland, Breakaway Carolina, Daytrip Seattle, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Deorro, Jiqui, and Muerte. Upcoming: Breakaway Boston, Escape, Apocalypse, Countdown, Thunderdome, and EDC Las Vegas.
+                                    Taekwondo instructor (2017-2020), where I learned how to teach to different student's needs, adjust to learning styles, and clearly/concisely explain concepts
                                 </li>
                             </ul>
                         </div>

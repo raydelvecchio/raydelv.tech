@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import './title_with_list.css'
+import './global.css'
 import SocialLinks from "./SocialLinks";
 
 function Home() {

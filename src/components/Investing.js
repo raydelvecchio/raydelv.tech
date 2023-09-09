@@ -1,4 +1,4 @@
-import "./title_with_list.css"
+import "./global.css"
 import SocialLinks from "./SocialLinks";
 import React from "react";
 
@@ -14,25 +14,19 @@ function Investments() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I hold a second degree black belt in ITF Taekwondo and was once 3rd in the world for <a className="link" href="https://centurymartialarts.com/collections/bo-staff" target="_blank" rel="noopener noreferrer">Bo Staff</a> performance
+                                    I source/diligence startups in frontier tech/crypto/AI for Nima Capital, and regularly meet with founders!
                                 </li>
                                 <li>
-                                    I was ranked nationally in the NCFL PF debate circuit
+                                    I made my first angel investment in <a className="link" href="https://skilldeck.io" target="_blank" rel="noopener noreferrer">Skilldeck</a> in August 2023. They're extremely capital efficient with a great repeat founder I've known for a while, targeting a niche market with high retention - I'm excited to watch them develop.
                                 </li>
                                 <li>
-                                    My current hobbies include surfing (when I can), bouldering (V2/3 right now), and basic music production
+                                    My first equities position was $MRNA in December 2021, and since I've held positions in $GSFTX, $AMD, $NVDA, and others. I haven't yet dabbled in options myself :(
                                 </li>
                                 <li>
-                                    I'm a passionate event host who enjoys meeting new people, and have held pool parties, pizza nights, and taco tuesdays in Palo Alto and San Francisco, as well as networking events for Brown's Entrepreneurship Program in Providence
+                                    As a senior analyst at <a className="link" href="https://www.brownhealthcareinvestmentgroup.com/" target="_blank" rel="noopener noreferrer">Brown Healthcare Investment Group</a>, I helped diligence and pitch small-cap biotechnology stocks for the $50k fund
                                 </li>
                                 <li>
-                                    I used to be a pre-med student and took two college semesters of organic chemistry in high school
-                                </li>
-                                <li>
-                                    For the summer of 2022, I lived at <a className="link" href="https://www.businessinsider.com/facebook-house-inside-palo-alto-home-mark-zuckerberg-la-jennifer-2017-12" target="_blank" rel="noopener noreferrer">819 La Jennifer Way</a> with a bunch of GSB students
-                                </li>
-                                <li>
-                                    I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, Beyond Wonderland, Breakaway Carolina, Daytrip Seattle, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Deorro, Jiqui, and Muerte. Upcoming: Breakaway Boston, Escape, Apocalypse, Countdown, Thunderdome, and EDC Las Vegas.
+                                    Real estate is also interesting to me; I've been the tech lead of <a className="link" href="https://www.brownstudentsre.com/" target="_blank" rel="noopener noreferrer">Brown Students in Real Estate</a>
                                 </li>
                             </ul>
                         </div>
