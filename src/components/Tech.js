@@ -14,7 +14,7 @@ function Tech() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I work at Nima Capital, where I manage cloud infrastructure, automate trading strategies, perform data analytics, write internal tools for equities analysis, social media, and alerting, AI engineering, and quantitative development
+                                    I work at the family office Nima Capital, where I manage cloud infrastructure, automate trading strategies, perform data analytics, write internal tools for equities analysis, social media, and alerting, AI engineering, and quantitative development
                                 </li>
                                 <li>
                                     My favorite personal project was <a className="link" href="https://github.com/raydelvecchio/SwiftAI-v2" target="_blank" rel="noopener noreferrer">SwiftAIv2</a> (Python, Huggingface, PyTorch), an LLM fine tuned to write new Taylor Swift songs (improved upon my original <a className="link" href="https://github.com/raydelvecchio/SwiftAI" target="_blank" rel="noopener noreferrer">v1</a>)
