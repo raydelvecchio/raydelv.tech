@@ -23,7 +23,7 @@ function Misc() {
                                     My current hobbies include surfing (when I can), bouldering (V2/3 right now), and basic music production
                                 </li>
                                 <li>
-                                    I'm a passionate event host who enjoys meeting new people, and have held pool parties, pizza nights, and taco tuesdays in Palo Alto and San Francisco, as well as networking events for Brown's Entrepreneurship Program in Providence
+                                    I'm a passionate event host who enjoys meeting new people, and have held social/networking events in Palo Alto and San Francisco, led independent seminar-like discussions on Brown's campus on tech/ethical/social topics, as well as helped organize events for Brown's Entrepreneurship Program
                                 </li>
                                 <li>
                                     I used to be a pre-med student and took two college semesters of organic chemistry in high school
