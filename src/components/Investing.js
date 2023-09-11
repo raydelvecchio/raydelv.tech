@@ -14,7 +14,7 @@ function Investments() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I've sourced/diligenced startups in frontier tech/crypto/AI for Nima Capital, and regularly meet with founders!
+                                    I've sourced/diligenced startups in frontier tech/crypto/AI for Nima Capital, and love meeting with founders!
                                 </li>
                                 <li>
                                     I made my first angel investment in <a className="link" href="https://skilldeck.io" target="_blank" rel="noopener noreferrer">Skilldeck</a> in August 2023. They're extremely capital efficient with a great repeat founder I've known for a while, targeting a niche market with high retention - I'm excited to watch them develop.
