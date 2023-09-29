@@ -38,6 +38,9 @@ function Misc() {
                                     Loquor quidam latine
                                 </li>
                                 <li>
+                                    I'm an amateur DJ, and DJed my first party at Harvard in September. I just landed my first paying gig!
+                                </li>
+                                <li>
                                     I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, Beyond Wonderland, Breakaway Carolina, Breakaway Boston, Daytrip Seattle, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Deorro, Jiqui, and Muerte. Upcoming: Escape, Apocalypse, Countdown, Thunderdome, and EDC Las Vegas.
                                 </li>
                             </ul>
