@@ -23,10 +23,10 @@ function Misc() {
                                     My current hobbies include surfing (when I can), bouldering (V2/3 right now), and basic music production
                                 </li>
                                 <li>
-                                    I'm a passionate event host who enjoys meeting new people, and have held social/networking events in Palo Alto and San Francisco, led independent seminar-like discussions on Brown's campus on tech/ethical/social topics, as well as helped organize events for Brown's Entrepreneurship Program
+                                    I'm a passionate event host who enjoys meeting new people; have held social/networking events the bay, and led independent seminar-like discussions on Brown's campus on tech/ethical/social topics
                                 </li>
                                 <li>
-                                    I used to be a pre-med student and took two college semesters of organic chemistry in high school
+                                    I used to be pre-med student and took two college semesters of organic chemistry in high school
                                 </li>
                                 <li>
                                     For the summer of 2022, I lived at <a className="link" href="https://www.businessinsider.com/facebook-house-inside-palo-alto-home-mark-zuckerberg-la-jennifer-2017-12" target="_blank" rel="noopener noreferrer">819 La Jennifer Way</a> with a bunch of GSB students
@@ -35,7 +35,7 @@ function Misc() {
                                     In 2020, I co-founded a startup <a className="link" href="https://hyphora.org" target="_blank" rel="noopener noreferrer">Hyphora</a> (now inactive) where I ran marketing and product
                                 </li>
                                 <li>
-                                    Loquor quidam latine
+                                    Loquor quidam latine; have taken 5 years of the language
                                 </li>
                                 <li>
                                     I'm an amateur DJ, and DJed my first party at Harvard in September. I just landed my first paying gig!
