@@ -15,6 +15,9 @@ function Mixes() {
                                 <li>
                                     <a className="link" href="/mixes/Electric%20Love%20Story.mp3" target="_blank" rel="noopener noreferrer">Electric Love Story</a>: Love Story (Taylor Swift) x Electric Love (BORNS, TWINSICK 2022 Remix)
                                 </li>
+                                <li>
+                                    <a className="link" href="/mixes/UCLA%20From%20the%20Start.mp3" target="_blank" rel="noopener noreferrer">UCLA From the Start</a>: From the Start (Laufey) x UCLA (RL Grime)
+                                </li>
                             </ul>
                         </div>
                     </div>
