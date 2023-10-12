@@ -8,6 +8,7 @@ import Research from "./components/Research";
 import Tech from "./components/Tech";
 import About from "./components/About";
 import Teaching from "./components/Teaching";
+import Mixes from "./components/Mixes";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/technology" element={<Tech />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/teach" element={<Teaching />} />
+                <Route path="/mix" element={<Mixes />} />
                 <Route path="*" element={<Home />} />
             </Routes>
         </Router>
