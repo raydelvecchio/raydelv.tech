@@ -7,7 +7,7 @@ function Mixes() {
             <div className="container">
                 <div className="content-wrapper">
                     <div className="message">
-                        Mixes.
+                        Live deck mixes.
                     </div>
                     <div className="centered-list">
                         <div className="bullet-list-container">
