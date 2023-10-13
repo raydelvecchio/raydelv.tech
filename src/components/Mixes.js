@@ -21,6 +21,9 @@ function Mixes() {
                                 <li>
                                     10/12/23: <a className="link" href="/mixes/Piece%20of%20Home%20Depot.mp3" target="_blank" rel="noopener noreferrer">Piece of Home Depot</a>: Piece of Me (MK and Becky Hill) x Home Depot Theme Song (Home Depot)
                                 </li>
+                                <li>
+                                    10/13/23: <a className="link" href="/mixes/Slowly%20Daisy.mp3" target="_blank" rel="noopener noreferrer">Slowly Daisy</a>: Slowly (Weston Estate) x Daisy (Kid Travis)
+                                </li>
                             </ul>
                         </div>
                     </div>
