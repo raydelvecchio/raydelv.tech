@@ -18,6 +18,9 @@ function Mixes() {
                                 <li>
                                     10/11/23: <a className="link" href="/mixes/UCLA%20From%20the%20Start.mp3" target="_blank" rel="noopener noreferrer">UCLA From the Start</a>: From the Start (Laufey) x UCLA (RL Grime)
                                 </li>
+                                <li>
+                                    10/12/23: <a className="link" href="/mixes/Piece%20of%20Home%20Depot.mp3" target="_blank" rel="noopener noreferrer">Piece of Home Depot</a>: Piece of Me (MK and Becky Hill) x Home Depot Theme Song (Home Depot)
+                                </li>
                             </ul>
                         </div>
                     </div>
