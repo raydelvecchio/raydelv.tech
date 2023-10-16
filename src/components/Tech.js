@@ -17,7 +17,7 @@ function Tech() {
                                     I work at the family office Nima Capital, where I manage cloud infrastructure, automate quantitative trading strategies, perform data analytics, AI engineering for VC workflow and equities analysis, and write various internal tools for social media and alerting
                                 </li>
                                 <li>
-                                    I'm currently an engineering consultant for <a className="link" href="https://lesift.com" target="_blank" rel="noopener noreferrer">Sift</a>, a Brown-based startup building a platform to discover cheaper clothing products, where I help with system design, APIs, and backend engineering
+                                    I'm currently an engineering consultant for <a className="link" href="https://letsift.com" target="_blank" rel="noopener noreferrer">Sift</a>, a Brown-based startup building a platform to discover cheaper clothing products, where I help with system design, APIs, and backend engineering
                                 </li>
                                 <li>
                                     I've built <a className="link" href="https://github.com/raydelvecchio/SwiftAI-v2" target="_blank" rel="noopener noreferrer">SwiftAIv2</a>, an LLM fine tuned to write new Taylor Swift songs (improved upon my original <a className="link" href="https://github.com/raydelvecchio/SwiftAI" target="_blank" rel="noopener noreferrer">v1</a>)
