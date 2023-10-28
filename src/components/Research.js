@@ -23,7 +23,7 @@ function Research() {
                                     I spent a semester completing an independent study in Professor <a className="link" href="https://chensun.me" target="_blank" rel="noopener noreferrer">Chen Sun</a>'s PALM lab, researching engineering methods in deep learning to detect object states
                                 </li>
                                 <li>
-                                    For <a className="link" href="https://cs.brown.edu/courses/info/csci2952-n/" target="_blank" rel="noopener noreferrer">CS2952N</a>, other students and I completed a research project exploring a Shared Uniform Space (SUS) to allow generalist/multitask agents to complete tasks accurately without giving the model knowledge of input modality. You can find the report <a className="link" href="/SUS_Embedding.pdf" download>here</a>.
+                                    For <a className="link" href="https://cs.brown.edu/courses/info/csci2952-n/" target="_blank" rel="noopener noreferrer">CS2952N</a>, my team and I completed a research project exploring a novel method for training generalist/multitask agents via a Shared Uniform Space (<a className="link" href="https://www.github.com/raydelvecchio/SUS" target="_blank" rel="noopener noreferrer">SUS</a>), allowing a model to complete tasks accurately without providing knowledge of input modality thus preventing the formation of sub-networks within the weight space. You can find the report <a className="link" href="/SUS_Embedding.pdf" download>here</a>.
                                 </li>
                             </ul>
                         </div>
