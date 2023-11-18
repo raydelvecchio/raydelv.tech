@@ -26,7 +26,7 @@ function Tech() {
                                     At the <a className="link" href="https://tedai.devpost.com/" target="_blank" rel="noopener noreferrer">2023 TED AI Multimodal Hackathon</a>, my team and I built <a className="link" href="https://github.com/raydelvecchio/PitchPerfect" target="_blank" rel="noopener noreferrer">Crux</a>, an AI tool to iteratively improve presentations, giving feedback on posture, cadence, and content, then re-presenting it in a user's OWN voice
                                 </li>
                                 <li>
-                                    I'm currently working on <a className="link" href="https://mockingbird.live" target="_blank" rel="noopener noreferrer">Mockingbird</a>, an ML tool to automatically DJ a party, generate song recommendations based on crowd feedback, and manage music queuing for establishments
+                                    A (long) ongoing project I'm working on <a className="link" href="https://mockingbird.live" target="_blank" rel="noopener noreferrer">Mockingbird</a>, an ML tool to automatically DJ a party, generate song recommendations based on crowd feedback, and manage music queuing for establishments. Prototype/MVP already complete!
                                 </li>
                                 <li>
                                     Through my time coding, I've completed a number of small projects as well, such as a remote controlled water gun (Arduino, Blynk, C++), a camera control virus (Kali Linux), variational autoencoder (VAE) for similar molecule generation (Python, Tensorflow), full GUI and playable pacman (Java, JavaFX), on-chain maximum extractable value (MEV) bots (Ethers.js, web3.js, Typescript, Solidity), and more
