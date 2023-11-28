@@ -14,7 +14,7 @@ function Tech() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I work at the family office Nima Capital, where I manage cloud infrastructure, automate quantitative trading strategies, perform data analytics, AI engineering for VC workflow and equities analysis, and write various internal tools for social media and alerting
+                                    I work at the family office Nima Capital, where I manage cloud infrastructure, automate quantitative trading strategies, build MEV bots, perform data analytics, AI engineering for VC workflow and equities analysis, and write various internal tools for social media and alerting
                                 </li>
                                 <li>
                                     From September to November 2023, I served as an engineering consultant for <a className="link" href="https://letsift.com" target="_blank" rel="noopener noreferrer">Sift</a>, a Brown-based startup building a platform to discover cheaper clothing products, where I helped with system design, API creation, and backend engineering / deployment efforts
@@ -26,10 +26,10 @@ function Tech() {
                                     At the <a className="link" href="https://tedai.devpost.com/" target="_blank" rel="noopener noreferrer">2023 TED AI Multimodal Hackathon</a>, my team and I built <a className="link" href="https://github.com/raydelvecchio/PitchPerfect" target="_blank" rel="noopener noreferrer">Crux</a>, an AI tool to iteratively improve presentations, giving feedback on posture, cadence, and content, then re-presenting it in a user's OWN voice
                                 </li>
                                 <li>
-                                    A (long) ongoing project I'm working on <a className="link" href="https://mockingbird.live" target="_blank" rel="noopener noreferrer">Mockingbird</a>, an ML tool to automatically DJ a party, generate song recommendations based on crowd feedback, and manage music queuing for establishments. Prototype/MVP already complete!
+                                    In open source, I built on the vector database VLite to make <a className="link" href="https://github.com/raydelvecchio/vlite-v2" target="_blank" rel="noopener noreferrer">VLite V2</a>, implementing metadata retrieval, fine-grained chunking, and Weaviate's "autocut" feature to avoid selecting K by clustering similar data!
                                 </li>
                                 <li>
-                                    Through my time coding, I've completed a number of small projects as well, such as a remote controlled water gun (Arduino, Blynk, C++), a camera control virus (Kali Linux), variational autoencoder (VAE) for similar molecule generation (Python, Tensorflow), full GUI and playable pacman (Java, JavaFX), on-chain maximum extractable value (MEV) bots (Ethers.js, web3.js, Typescript, Solidity), and more
+                                    A (long) ongoing project I'm working on <a className="link" href="https://mockingbird.live" target="_blank" rel="noopener noreferrer">Mockingbird</a>, an ML tool to automatically DJ a party, generate song recommendations based on crowd feedback, and manage music queuing for establishments. Prototype/MVP already complete!
                                 </li>
                             </ul>
                         </div>
