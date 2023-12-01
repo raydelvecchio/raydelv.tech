@@ -14,7 +14,10 @@ function Tech() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I work at the family office Nima Capital, where I manage cloud infrastructure, automate quantitative trading strategies, build MEV bots, perform data analytics, AI engineering for VC workflow and equities analysis, and write various internal tools for social media and alerting
+                                    I just started as founding engineer at <a className="link" href="https://cerebralvalley.ai" target="_blank" rel="noopener noreferrer">Cerebral Valley</a>! Shipping code and vibes.
+                                </li>
+                                <li>
+                                    For ~2.6 years, I was an engineer at the family office Nima Capital, where I managed cloud infrastructure, automated quantitative trading strategies, built MEV bots, performed data analytics, AI engineering for VC workflow and equities analysis, and wrote various internal tools for social media and alerting
                                 </li>
                                 <li>
                                     From September to November 2023, I served as an engineering consultant for <a className="link" href="https://letsift.com" target="_blank" rel="noopener noreferrer">Sift</a>, a Brown-based startup building a platform to discover cheaper clothing products, where I helped with system design, API creation, and backend engineering / deployment efforts
