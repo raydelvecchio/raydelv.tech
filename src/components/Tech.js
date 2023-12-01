@@ -20,7 +20,7 @@ function Tech() {
                                     For ~2.6 years, I was an engineer at the family office Nima Capital, where I managed cloud infrastructure, automated quantitative trading strategies, built MEV bots, performed data analytics, AI engineering for VC workflow and equities analysis, and wrote various internal tools for social media and alerting
                                 </li>
                                 <li>
-                                    From September to November 2023, I served as an engineering consultant for <a className="link" href="https://letsift.com" target="_blank" rel="noopener noreferrer">Sift</a>, a Brown-based startup building a platform to discover cheaper clothing products, where I helped with system design, API creation, and backend engineering / deployment efforts
+                                    For a few months in 2023 I served as an engineering consultant for <a className="link" href="https://letsift.com" target="_blank" rel="noopener noreferrer">Sift</a>, a Brown-based startup building a platform to discover cheaper clothing products, where I helped with system design, API creation, and backend engineering / deployment efforts
                                 </li>
                                 <li>
                                     I've built <a className="link" href="https://github.com/raydelvecchio/SwiftAI-v2" target="_blank" rel="noopener noreferrer">SwiftAIv2</a>, an LLM fine tuned to write new Taylor Swift songs (improved upon my original <a className="link" href="https://github.com/raydelvecchio/SwiftAI" target="_blank" rel="noopener noreferrer">v1</a>)
