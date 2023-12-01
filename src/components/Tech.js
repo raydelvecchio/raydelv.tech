@@ -14,7 +14,7 @@ function Tech() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I just started as founding engineer at <a className="link" href="https://cerebralvalley.ai" target="_blank" rel="noopener noreferrer">Cerebral Valley</a>! Shipping code and vibes.
+                                    I'm founding engineer at <a className="link" href="https://cerebralvalley.ai" target="_blank" rel="noopener noreferrer">Cerebral Valley</a>.
                                 </li>
                                 <li>
                                     For ~2.6 years, I was an engineer at the family office Nima Capital, where I managed cloud infrastructure, automated quantitative trading strategies, built MEV bots, performed data analytics, AI engineering for VC workflow and equities analysis, and wrote various internal tools for social media and alerting
