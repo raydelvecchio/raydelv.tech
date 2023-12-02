@@ -8,8 +8,8 @@ function Home() {
         { label: 'Existing', url: '/about' },
         { label: 'Coding', url: '/technology' },
         { label: 'Researching', url: '/research' },
-        { label: 'Investing', url: '/invest' },
         { label: 'Teaching', url: '/teach' },
+        { label: 'Writing', url: '/write'},
         { label: 'Enjoying', url: '/fun' },
         { label: 'Contacting', url: '/contact' }
     ];

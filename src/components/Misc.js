@@ -23,7 +23,7 @@ function Misc() {
                                     I was ranked nationally in the NCFL PF debate circuit
                                 </li>
                                 <li>
-                                    I'm a passionate event host who enjoys meeting new people; have held social/networking events the bay, and led independent seminar-like discussions on Brown's campus on tech/ethical/social topics
+                                    I'm a passionate event host who enjoys meeting new people; have held social/networking events the bay, led independent seminar-like discussions on Brown's campus on tech/ethical/social topics, and frequently meet/source founders!
                                 </li>
                                 <li>
                                     I used to be pre-med (chemistry major at Brown) and took two college semesters of organic chemistry in high school

@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Misc from "./components/Misc";
-import Investing from "./components/Investing";
 import Research from "./components/Research";
 import Tech from "./components/Tech";
 import About from "./components/About";
 import Teaching from "./components/Teaching";
 import Mixes from "./components/Mixes";
+import Writing from "./components/Writing";
 
 function App() {
     return (
@@ -17,11 +17,11 @@ function App() {
                 <Route exact path="/" element={<Home />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/fun" element={<Misc />} />
-                <Route path="/invest" element={<Investing />} />
                 <Route path="/research" element={<Research />} />
                 <Route path="/technology" element={<Tech />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/teach" element={<Teaching />} />
+                <Route path="/write" element={<Writing />} />
                 <Route path="/mix" element={<Mixes />} />
                 <Route path="*" element={<Home />} />
             </Routes>
