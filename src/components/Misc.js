@@ -41,7 +41,7 @@ function Misc() {
                                     I'm an <a className="link" href="/mix">amateur DJ</a>, and DJed my first party at Harvard in September '23. I mostly mix house music, but am slowly expanding to other genres.
                                 </li>
                                 <li>
-                                    I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, Escape, Beyond Wonderland, Breakaway Carolina, Breakaway Boston, Daytrip Seattle, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Deorro, Jiqui, Galantis, and Muerte. Upcoming: Apocalypse, Thunderdome, and EDC Las Vegas.
+                                    I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, Escape, Beyond Wonderland, Breakaway Carolina, Breakaway Boston, Daytrip Seattle, Zombie Apocalypse, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Nghtmre, Ray Volpe, Deorro, Jiqui, Galantis, and Muerte.
                                 </li>
                             </ul>
                         </div>
