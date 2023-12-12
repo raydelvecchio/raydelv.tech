@@ -14,6 +14,9 @@ function Writing() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
+                                    <a className="link" href="https://medium.com/@raymond_del_vecchio/how-do-transformers-work-really-96fff8fe25c9" target="_blank" rel="noopener noreferrer">How Do Transformers Work, Really? A intuitive explanation.</a>
+                                </li>
+                                <li>
                                     <a className="link" href="https://twitter.com/raydelvecc/status/1725317238495093094" target="_blank" rel="noopener noreferrer">Thread on NormalComputing's Baked-in RAG Alternative</a>
                                 </li>
                                 <li>
