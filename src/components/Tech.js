@@ -14,10 +14,10 @@ function Tech() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I'm founding engineer at <a className="link" href="https://cerebralvalley.ai" target="_blank" rel="noopener noreferrer">Cerebral Valley</a>.
+                                    I'm founding engineer at <a className="link" href="https://cerebralvalley.ai" target="_blank" rel="noopener noreferrer">Cerebral Valley</a>, spending my time thinking about AI-powered search, RAG, and product.
                                 </li>
                                 <li>
-                                    For ~2.6 years, I was an engineer at the family office Nima Capital, where I managed cloud infrastructure, automated quantitative trading strategies, built MEV bots, performed data analytics, AI engineering for VC workflow and equities analysis, sourced/diligenced founders, and wrote various internal tools for social media and alerting
+                                    For ~2.6 years, I was an engineer at the family office Nima Capital, where I managed cloud infrastructure, automated trading strategies (quant-adjacent), built MEV bots, performed data analytics, AI engineering for VC workflow and equities analysis, sourced/diligenced founders, and wrote various internal tools for social media and alerting
                                 </li>
                                 <li>
                                     For a few months was as an engineering consultant for <a className="link" href="https://letsift.com" target="_blank" rel="noopener noreferrer">Sift</a>, where I helped with system design, API creation, and backend engineering / deployment efforts
@@ -29,7 +29,7 @@ function Tech() {
                                     At the <a className="link" href="https://tedai.devpost.com/" target="_blank" rel="noopener noreferrer">2023 TED AI Multimodal Hackathon</a>, my team and I built <a className="link" href="https://github.com/raydelvecchio/PitchPerfect" target="_blank" rel="noopener noreferrer">Crux</a>, an AI tool to iteratively improve presentations, giving feedback on posture, cadence, and content, then re-presenting it in a user's OWN voice
                                 </li>
                                 <li>
-                                    I built on the vector database VLite to make <a className="link" href="https://github.com/raydelvecchio/vlite-v2" target="_blank" rel="noopener noreferrer">VLite V2</a>, implementing metadata retrieval, fine-grained chunking, and Weaviate's "autocut" feature to avoid selecting K by clustering similar data!
+                                    I built on the vector database VLite to make <a className="link" href="https://github.com/raydelvecchio/vlite-v2" target="_blank" rel="noopener noreferrer">VLite V2 (VLite2)</a>, implementing metadata retrieval, fine-grained chunking, and Weaviate's "autocut" feature to avoid selecting K by clustering similar data! This is currently the fastest available vector database.
                                 </li>
                                 <li>
                                     Using Vlite2, I made <a className="link" href="https://github.com/raydelvecchio/gptcachelite" target="_blank" rel="noopener noreferrer">GPTCacheLite</a> in a night: a semantic caching system for natural language queries, saving 3x compute and LLM inference time for repeated semantically similar queries!

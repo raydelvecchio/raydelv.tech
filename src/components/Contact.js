@@ -4,10 +4,8 @@ import React from "react";
 
 function Contact() {
     const links = [
-        { label: 'School Email', url: 'mailto:raymond_del_vecchio@brown.edu' },
         { label: 'Personal Email', url: 'mailto:xraydelv@gmail.com' },
-        { label: 'Work Email', url: 'mailto:raymond@nimacap.com' },
-        { label: 'Calendly', url: 'https://calendly.com/raydelvecchio/30min' },
+        { label: 'Work Email', url: 'mailto:ray@cerebralvalley.ai' },
         { label: 'Telegram (@rayd0x)', url: 'https://web.telegram.org' },
     ];
 
