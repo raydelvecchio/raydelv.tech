@@ -14,6 +14,9 @@ function Writing() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
+                                    <a className="link" href="https://twitter.com/raydelvecc/status/1755364584930861562" target="_blank" rel="noopener noreferrer">VLite2 is the Fastest Vector Database</a>
+                                </li>
+                                <li>
                                     <a className="link" href="https://medium.com/@raymond_del_vecchio/how-do-transformers-work-really-96fff8fe25c9" target="_blank" rel="noopener noreferrer">How Do Transformers Work, Really? A intuitive explanation.</a>
                                 </li>
                                 <li>
