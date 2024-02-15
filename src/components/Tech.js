@@ -35,6 +35,9 @@ function Tech() {
                                     Using Vlite2, I made <a className="link" href="https://github.com/raydelvecchio/gptcachelite" target="_blank" rel="noopener noreferrer">GPTCacheLite</a> in a night: a semantic caching system for natural language queries, saving 3x compute and LLM inference time for repeated semantically similar queries!
                                 </li>
                                 <li>
+                                    Created AI-powered sqlite3 called <a className="link" href="https://github.com/raydelvecchio/aisqlite" target="_blank" rel="noopener noreferrer">AISQLite</a>. This wraps sqlite3 in python with AI features for query generation and retrieval via natural language.
+                                </li>
+                                <li>
                                     A (long) ongoing project I'm working on <a className="link" href="https://mockingbird.live" target="_blank" rel="noopener noreferrer">Mockingbird</a>, an ML tool to automatically DJ a party, generate song recommendations based on crowd feedback, and manage music queuing for establishments. Prototype/MVP already complete!
                                 </li>
                             </ul>
