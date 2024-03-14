@@ -38,7 +38,7 @@ function Misc() {
                                     Loquor quidam latine, and I have taken somewhere around 5 years of the language
                                 </li>
                                 <li>
-                                    I'm an <a className="link" href="/mix">amateur tech house DJ</a>, and DJed my first party at Harvard in September '23, and have since DJed the NeurIPS Huggingface afterparty, as well as the Cerebral Valley e/acc holiday party
+                                    I'm an <a className="link" href="/mix">amateur tech house DJ</a>, and DJed my first party at Harvard in September '23, and have since DJed the NeurIPS Huggingface afterparty, as well as the Cerebral Valley e/acc holiday party and the Apple Vision Pro launch party (covered by the SF Standard <a className="link" href="https://sfstandard.com/2024/02/24/san-francisco-vision-pro-parties-trend/">here</a>!)
                                 </li>
                                 <li>
                                     I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, Escape, Beyond Wonderland, Breakaway Carolina, Breakaway Boston, Daytrip Seattle, Zombie Apocalypse, Wobbleland, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Nghtmre, Ray Volpe, Deorro, Jiqui, Galantis, Zhu, Kream, and Muerte.
