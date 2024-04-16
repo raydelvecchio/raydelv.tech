@@ -7,7 +7,6 @@ import Research from "./components/Research";
 import Tech from "./components/Tech";
 import About from "./components/About";
 import Teaching from "./components/Teaching";
-import Mixes from "./components/Mixes";
 import Writing from "./components/Writing";
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/teach" element={<Teaching />} />
                 <Route path="/write" element={<Writing />} />
-                <Route path="/mix" element={<Mixes />} />
                 <Route path="*" element={<Home />} />
             </Routes>
         </Router>
