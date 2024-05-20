@@ -14,13 +14,13 @@ function Teaching() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    Teaching assistant for Brown's <a className="link" href="https://cs.brown.edu/courses/info/csci1470/" target="_blank" rel="noopener noreferrer">Deep Learning</a> (2 semesters), where responsibilities included holding office hours for conceptual understanding/debugging, writing course content and coding assignments, grading projects, mentoring/judging final projects
+                                    Teaching assistant for Brown's <a className="link" href="https://cs.brown.edu/courses/info/csci1470/" target="_blank" rel="noopener noreferrer">Deep Learning</a> (2 semesters).
                                 </li>
                                 <li>
-                                    Teaching assistant for <i>Entrepreneurial Management in Adversity</i> (<a className="link" href="https://entrepreneurship.brown.edu/courses/" target="_blank" rel="noopener noreferrer">ENGN1931Q</a>) with Professor Howard Anderson (founder, Battery Ventures, Yankee Group), where I graded/advised consulting assignments, ran course logistics, and hosted guest speakers
+                                    Teaching assistant for <i>Entrepreneurial Management in Adversity</i> (<a className="link" href="https://entrepreneurship.brown.edu/courses/" target="_blank" rel="noopener noreferrer">ENGN1931Q</a>) with Professor Howard Anderson (founder, Battery Ventures, Yankee Group).
                                 </li>
                                 <li>
-                                    Taekwondo instructor (2017-2020), where I learned how to teach to different student's needs, adjust to learning styles, and clearly/concisely explain concepts
+                                    Taekwondo instructor (2017-2020), where I learned how to teach to different student's needs, adjust to learning styles, and clearly/concisely explain concepts.
                                 </li>
                             </ul>
                         </div>
