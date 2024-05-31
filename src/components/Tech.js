@@ -20,6 +20,9 @@ function Tech() {
                                     For ~2.5 years, I was an engineer at Nima Capital's liquid strategy team, managing cloud infrastructure, automating trading strategies, building MEV bots, AI engineering for VC workflow and equities analysis, sourcing / diligencing founders, and writing various internal tools for social media and alerting.
                                 </li>
                                 <li>
+                                    <a className="link" href="https://github.com/raydelvecchio/lazytorch" target="_blank" rel="noopener noreferrer">LazyTorch</a>: basic PyTorch implemented sequentially (no parallelization) directly in vanilla Python. Complete with Autodiff, Tensors, Loss Functions, Activations, Layers / abstractions, and full Network abstractions. Fully function-forward, meaning you never have to write backprop methods even for complex calculations - only the forward pass. Trained a few function approximators on this; can train anything on it!
+                                </li>
+                                <li>
                                     <a className="link" href="https://github.com/raydelvecchio/SwiftAI-v2" target="_blank" rel="noopener noreferrer">SwiftAIv2</a>: an LM fine tuned to write new Taylor Swift songs (improved upon <a className="link" href="https://github.com/raydelvecchio/SwiftAI" target="_blank" rel="noopener noreferrer">v1</a>).
                                 </li>
                                 <li>
