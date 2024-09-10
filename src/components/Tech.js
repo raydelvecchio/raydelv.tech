@@ -14,13 +14,13 @@ function Tech() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I'm currently founding engineer at <a className="link" href="https://cerebralvalley.ai" target="_blank" rel="noopener noreferrer">Cerebral Valley</a>, responsible for engineering efforts on our product (natural language search over structured data, events tech, and general platform). I spend my time working on search, chat, and backend. In spare time, I help organize events and other ops.
+                                    I'm currently founding engineer at <a className="link" href="https://cerebralvalley.ai" target="_blank" rel="noopener noreferrer">Cerebral Valley</a>, responsible for engineering efforts on our product (natural language search over structured data, events tech, and general platform). I spend my time working on search, chat, and backend, as well as leading government / defense efforts in the org. In spare time, I help organize events and other ops.
                                 </li>
                                 <li>
                                     For ~2.5 years, I was an engineer at Nima Capital's liquid strategy team, managing cloud infrastructure, automating trading strategies, building MEV bots, AI engineering for VC workflow and equities analysis, sourcing / diligencing founders, and writing various internal tools for social media and alerting.
                                 </li>
                                 <li>
-                                    <a className="link" href="https://github.com/raydelvecchio/lazytorch" target="_blank" rel="noopener noreferrer">LazyTorch</a>: basic PyTorch implemented sequentially (no parallelization) directly in vanilla Python. Complete with Autodiff, Tensors, Loss Functions, Activations, Layers / abstractions, and full Network abstractions. Fully function-forward, meaning you never have to write backprop methods even for complex calculations - only the forward pass. Trained a few function approximators on this; can train anything on it!
+                                    <a className="link" href="https://github.com/raydelvecchio/lazytorch" target="_blank" rel="noopener noreferrer">LazyTorch</a>: basic PyTorch implemented sequentially (no parallelization) directly in vanilla Python. Complete with Autodiff, Tensors, Loss Functions, Activations, Layers, and full Network abstractions, ready to train on!
                                 </li>
                                 <li>
                                     <a className="link" href="https://github.com/raydelvecchio/SwiftAI-v2" target="_blank" rel="noopener noreferrer">SwiftAIv2</a>: an LM fine tuned to write new Taylor Swift songs (improved upon <a className="link" href="https://github.com/raydelvecchio/SwiftAI" target="_blank" rel="noopener noreferrer">v1</a>).
@@ -35,10 +35,7 @@ function Tech() {
                                     <a className="link" href="https://github.com/raydelvecchio/figma-translator" target="_blank" rel="noopener noreferrer">Figma Translate</a>: tool to convert any Figma file into accurate, working, and well-documented React/Bootstrap code in a dedicated runtime and edit environment.
                                 </li>
                                 <li>
-                                    <a className="link" href="https://github.com/raydelvecchio/aisqlite" target="_blank" rel="noopener noreferrer">AISQLite</a>: wraps sqlite3 in python with AI features for query generation and retrieval via natural language.
-                                </li>
-                                <li>
-                                    <a className="link" href="https://github.com/raydelvecchio/PitchPerfect" target="_blank" rel="noopener noreferrer">Crux</a>: an AI tool to iteratively improve presentations, giving feedback on posture, cadence, and content, then re-presenting it in a user's OWN voice, built at the <a className="link" href="https://tedai.devpost.com/" target="_blank" rel="noopener noreferrer">2023 TED AI hackathon</a>.
+                                    <a className="link" href="https://github.com/raydelvecchio/word-cmd-k" target="_blank" rel="noopener noreferrer">Word CMD+K</a>: added cursor-style command+k functionality into Microsoft Word.
                                 </li>
                                 <li>
                                     <a className="link" href="https://mockingbird.live" target="_blank" rel="noopener noreferrer">Mockingbird</a>: an ML tool to automatically DJ a party, generate song recommendations entirely based on crowd feedback, and manage music queuing for establishments. This is my longest ongoing project. I'm trying to find more time to optimize and release this.

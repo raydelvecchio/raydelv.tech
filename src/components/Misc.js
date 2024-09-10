@@ -17,7 +17,7 @@ function Misc() {
                                     I hold a second degree black belt in ITF Taekwondo and was technically once 3rd in the world for <a className="link" href="https://centurymartialarts.com/collections/bo-staff" target="_blank" rel="noopener noreferrer">Bo Staff</a> performance
                                 </li>
                                 <li>
-                                    When I can, I enjoy surfing, bouldering, and hiking, although I'm not very good at any of these activities
+                                    I greatly enjoy lifting, surfing (when I can), bouldering, and hiking, although I'm not very good at any of these activities
                                 </li>
                                 <li>
                                     I was ranked nationally in the NCFL PF debate circuit
@@ -38,7 +38,7 @@ function Misc() {
                                     I'm an amateur house DJ - did my first party at Harvard in September '23, and have since spun the NeurIPS Huggingface afterparty, as well as Cerebral Valley's e/acc holiday party, Apple Vision Pro launch party (covered by the SF Standard <a className="link" href="https://sfstandard.com/2024/02/24/san-francisco-vision-pro-parties-trend/">here</a>!), and the <a className="link" href="https://twitter.com/cerebral_valley/status/1778187849248153705">YC W24 afterparty</a> at the top of Transamerica Pyramid!
                                 </li>
                                 <li>
-                                    I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, EDC Las Vegas, Escape, Beyond Wonderland, Breakaway Carolina, Breakaway Boston, Daytrip Seattle, Zombie Apocalypse, Wobbleland, and Hard Summer, as well as independent shows by Diesel, Valentino Khan, Nghtmre, Ray Volpe, Deorro, Jiqui, Galantis, Zhu, Artbat, Miss Monique, Kream, and Muerte.
+                                    I love <a className="link" href="https://en.wikipedia.org/wiki/Electronic_dance_music" target="_blank" rel="noopener noreferrer">EDM</a>. I've attended EZOO (2x), Countdown, EDC Las Vegas, Escape, Beyond Wonderland, Breakaway Carolina, Breakaway Boston, Daytrip Seattle, Zombie Apocalypse, Wobbleland, and Hard Summer, and many independent shows. My favorite festival of all time was Burning Man 2024.
                                 </li>
                             </ul>
                         </div>
