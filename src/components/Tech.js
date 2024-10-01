@@ -14,7 +14,7 @@ function Tech() {
                         <div className="bullet-list-container">
                             <ul>
                                 <li>
-                                    I'm currently founding engineer at <a className="link" href="https://cerebralvalley.ai" target="_blank" rel="noopener noreferrer">Cerebral Valley</a>, responsible for engineering efforts on our product (natural language search over structured data, events tech, and general platform). I spend my time working on search, chat, and backend, as well as leading government / defense efforts in the org. In spare time, I help organize events and other ops.
+                                    I'm currently CTO at <a className="link" href="https://cerebralvalley.ai" target="_blank" rel="noopener noreferrer">Cerebral Valley</a>, responsible for engineering efforts on our product (natural language search over structured data, events tech, and general platform). I spend my time working on search, chat, and backend, as well as leading government / defense efforts in the org. In spare time, I help organize events and other ops.
                                 </li>
                                 <li>
                                     For ~2.5 years, I was an engineer at Nima Capital's liquid strategy team, managing cloud infrastructure, automating trading strategies, building MEV bots, AI engineering for VC workflow and equities analysis, sourcing / diligencing founders, and writing various internal tools for social media and alerting.
