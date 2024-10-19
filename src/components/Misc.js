@@ -1,4 +1,3 @@
-import SocialLinks from "./SocialLinks";
 import React from "react";
 
 function Misc() {
