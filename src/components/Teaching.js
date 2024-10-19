@@ -16,7 +16,6 @@ function Teaching() {
                     </ul>
                 </div>
             </div>
-            <SocialLinks />
         </div>
     );
 }

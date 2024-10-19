@@ -21,7 +21,6 @@ function Writing() {
                     </ul>
                 </div>
             </div>
-            <SocialLinks />
         </div>
     );
 }

@@ -22,7 +22,6 @@ function Misc() {
                     </ul>
                 </div>
             </div>
-            <SocialLinks />
         </div>
     );
 }

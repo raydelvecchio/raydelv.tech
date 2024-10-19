@@ -24,7 +24,6 @@ function Tech() {
                     </ul>
                 </div>
             </div>
-            <SocialLinks />
         </div>
     );
 }

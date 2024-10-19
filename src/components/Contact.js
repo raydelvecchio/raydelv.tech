@@ -16,7 +16,6 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            <SocialLinks />
         </div>
     );
 }

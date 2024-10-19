@@ -17,7 +17,6 @@ function Research() {
                     </ul>
                 </div>
             </div>
-            <SocialLinks />
         </div>
     );
 }

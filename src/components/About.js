@@ -23,7 +23,6 @@ function About() {
                     </p>
                 </div>
             </div>
-            <SocialLinks />
         </div>
     );
 }
