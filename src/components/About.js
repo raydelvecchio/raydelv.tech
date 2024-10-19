@@ -3,20 +3,23 @@ import React from "react";
 
 function About() {
     return (
-        <div>
-            <div className="container">
-                <div className="content-wrapper flex flex-col justify-center min-h-screen">
-                    <h1 className="text-center text-4xl font-bold mb-6">
+        <div className="min-h-screen flex flex-col justify-center">
+            <div className="container mx-auto px-4">
+                <div className="max-w-4xl mx-auto">
+                    <h1 className="text-center text-4xl font-bold mb-8">
                         A little about me.
                     </h1>
-                    <p className="text-center mx-auto max-w-2xl">
-                        Hello! My name is Ray Del Vecchio - I'm 22 years old from <a className="underline text-link" href="https://en.wikipedia.org/wiki/Clifton,_Virginia" target="_blank" rel="noopener noreferrer">Clifton, VA</a>
-                         , but have lived in a few other places growing up military. I attended <a className="underline text-link" href="https://brown.edu" target="_blank" rel="noopener noreferrer">Brown University</a> studying computer science 
-                         (and some applied math). Currently I'm on a gap from school indefinitely, living in San Francisco and New York City.
-                         In elementary school, I first began playing around with terminals, writing scripts, and eventually building my first computer before high school.
-                         The technological knack stuck, and now I code for a living. I greatly enjoy the problem solving, logical, precise aspects of computation and consider myself lucky
-                         I can pursue my interests for work. Though mostly in CS, my interests are quite broad - I've pursued finance, chemistry, and computer science both in education and professionally. At the moment,
-                        I'm optimizing my life to maximize <i>experience</i>. You can find more fun facts about me <a className="underline text-link" href="/fun" target="_blank" rel="noopener noreferrer">here</a>. Welcome to my website!
+                    <p className="mb-4">
+                        Hello! I'm Ray Del Vecchio, 22 years old, originally from <a className="underline text-link" href="https://en.wikipedia.org/wiki/Clifton,_Virginia" target="_blank" rel="noopener noreferrer">Clifton, VA</a>, but have lived in various places due to a military upbringing. I studied computer science (with some applied math) at <a className="underline text-link" href="https://brown.edu" target="_blank" rel="noopener noreferrer">Brown University</a>. Currently, I'm on an indefinite gap from school, splitting my time between San Francisco and New York City.
+                    </p>
+                    <p className="mb-4">
+                        My journey in tech started early - from tinkering with terminals and writing scripts in elementary school to building my first computer before high school. Now, I code for a living, enjoying the problem-solving, logical, and precise aspects of computation. I feel fortunate to pursue my interests professionally.
+                    </p>
+                    <p className="mb-4">
+                        While my focus is primarily on CS, my interests are broad. I've explored finance, chemistry, and computer science both academically and professionally. Currently, I'm optimizing my life to maximize <i>experience</i>.
+                    </p>
+                    <p className="mb-4">
+                        For more fun facts about me, check out the <a className="underline text-link" href="/fun">Fun</a> section. Welcome to my website!
                     </p>
                 </div>
             </div>
