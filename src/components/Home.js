@@ -1,9 +1,10 @@
 import React from 'react';
-import './Home.css';
-import './global.css'
+import { useNavigate } from 'react-router-dom';
 import SocialLinks from "./SocialLinks";
 
 function Home() {
+    const navigate = useNavigate();
+
     const links = [
         { label: 'Existing', url: '/about' },
         { label: 'Coding', url: '/technology' },
@@ -14,26 +15,31 @@ function Home() {
         { label: 'Contacting', url: '/contact' }
     ];
 
+    const handleNavigation = (url) => {
+        navigate(url);
+    };
+
     return (
-        <div>
-            <div className="container">
-                <div className="content-wrapper">
-                    <div className="message">
-                        Hey, I'm <span className="highlight">Ray</span>! Here are some things I do.
-                    </div>
-                    <div className="centered-list">
-                        {links.map((link, index) => (
-                            <a key={index} href={link.url} className="item">
-                                {link.label}
-                            </a>
-                        ))}
-                    </div>
+        <div className="min-h-screen flex flex-col items-center justify-center">
+            <div className="w-11/12 max-w-2xl">
+                <h1 className="text-4xl font-bold mb-5 text-center">
+                    Hey, I'm <span className="text-highlight">Ray</span>! Here are some things I do.
+                </h1>
+                <div className="flex flex-col items-center">
+                    {links.map((link, index) => (
+                        <button 
+                            key={index} 
+                            onClick={() => handleNavigation(link.url)}
+                            className="text-black py-1 underline underline-offset-2 decoration-1 hover:text-darkred transition-colors duration-200"
+                        >
+                            {link.label}
+                        </button>
+                    ))}
                 </div>
             </div>
             <SocialLinks />
         </div>
     );
-
 }
 
 export default Home;
