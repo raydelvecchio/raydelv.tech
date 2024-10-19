@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaXTwitter } from 'react-icons/fa';
 import './SocialLinks.css';
 
 const SocialLinks = () => {
@@ -11,8 +11,8 @@ const SocialLinks = () => {
             <a href="https://github.com/raydelvecchio" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={32} />
             </a>
-            <a href="https://twitter.com/raydelvecc" target="_blank" rel="noopener noreferrer">
-                <FaTwitter size={32} />
+            <a href="https://x.com/raydelvecc" target="_blank" rel="noopener noreferrer">
+                <FaXTwitter size={32} />
             </a>
         </div>
     );
