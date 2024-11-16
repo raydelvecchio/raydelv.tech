@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from "./components/Home";
-import Contact from "./components/Contact";
-import Misc from "./components/Misc";
-import Research from "./components/Research";
-import Tech from "./components/Tech";
-import About from "./components/About";
-import Teaching from "./components/Teaching";
-import Writing from "./components/Writing";
+import Home from "./routes/Home";
+import Contact from "./routes/Contact";
+import Misc from "./routes/Misc";
+import Research from "./routes/Research";
+import Tech from "./routes/Tech";
+import About from "./routes/About";
+import Teaching from "./routes/Teaching";
+import Writing from "./routes/Writing";
 
 function App() {
     return (
