@@ -15,13 +15,14 @@ function Writing() {
 
             <h2 className="text-2xl font-semibold mb-4 mt-8">Threads</h2>
             <ul className="list-disc space-y-4 pl-6 mb-8">
-                <li><a className="underline text-link" href="https://twitter.com/raydelvecc/status/1755364584930861562" target="_blank" rel="noopener noreferrer">VLite2 is the Fastest Vector Database</a></li>
-                <li><a className="underline text-link" href="https://twitter.com/raydelvecc/status/1725317238495093094" target="_blank" rel="noopener noreferrer">Thread on NormalComputing's Baked-in RAG Alternative</a></li>
-                <li><a className="underline text-link" href="https://twitter.com/raydelvecc/status/1719544334435946758" target="_blank" rel="noopener noreferrer">Key Points from October 30 AI Executive Order</a></li>
-                <li><a className="underline text-link" href="https://twitter.com/raydelvecc/status/1715496550024245318" target="_blank" rel="noopener noreferrer">RL and Nvidia Eureka</a></li>
-                <li><a className="underline text-link" href="https://twitter.com/raydelvecc/status/1679968366377725953" target="_blank" rel="noopener noreferrer">How Language Models Use Long Context Windows</a></li>
-                <li><a className="underline text-link" href="https://twitter.com/raydelvecc/status/1666328599119663106" target="_blank" rel="noopener noreferrer">SEC Sues Coinbase Key Points</a></li>
-                <li><a className="underline text-link" href="https://twitter.com/raydelvecc/status/1629547395359952897" target="_blank" rel="noopener noreferrer">AI Philosophy w/ Joanne Lim</a></li>
+                <li><a className="underline text-link" href="https://x.com/raydelvecc/status/1872493328199217210" target="_blank" rel="noopener noreferrer">Exa's "Twitter Wrapped" Tech Stack</a></li>
+                <li><a className="underline text-link" href="https://x.com/raydelvecc/status/1755364584930861562" target="_blank" rel="noopener noreferrer">VLite2 is the Fastest Vector Database</a></li>
+                <li><a className="underline text-link" href="https://x.com/raydelvecc/status/1725317238495093094" target="_blank" rel="noopener noreferrer">Thread on NormalComputing's Baked-in RAG Alternative</a></li>
+                <li><a className="underline text-link" href="https://x.com/raydelvecc/status/1719544334435946758" target="_blank" rel="noopener noreferrer">Key Points from October 30 AI Executive Order</a></li>
+                <li><a className="underline text-link" href="https://x.com/raydelvecc/status/1715496550024245318" target="_blank" rel="noopener noreferrer">RL and Nvidia Eureka</a></li>
+                <li><a className="underline text-link" href="https://x.com/raydelvecc/status/1679968366377725953" target="_blank" rel="noopener noreferrer">How Language Models Use Long Context Windows</a></li>
+                <li><a className="underline text-link" href="https://x.com/raydelvecc/status/1666328599119663106" target="_blank" rel="noopener noreferrer">SEC Sues Coinbase Key Points</a></li>
+                <li><a className="underline text-link" href="https://x.com/raydelvecc/status/1629547395359952897" target="_blank" rel="noopener noreferrer">AI Philosophy w/ Joanne Lim</a></li>
             </ul>
         </ContentContainer>
     );
