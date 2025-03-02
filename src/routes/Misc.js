@@ -11,7 +11,7 @@ function Misc() {
                 <li>I hold a second degree black belt in ITF Taekwondo and was technically once 3rd in the world for <a className="underline text-link" href="https://centurymartialarts.com/collections/bo-staff" target="_blank" rel="noopener noreferrer">Bo Staff</a> performance</li>
                 <li>I greatly enjoy lifting, surfing (when I can), bouldering, and hiking, although I'm not very good at any of these activities</li>
                 <li>I was ranked nationally in the NCFL PF debate circuit</li>
-                <li>Most of my life I wanted to be a doctor, got into university as a chem major, and took two college semesters of organic chemistry in high school</li>
+                <li>I originally got into into college as a chem major, and took two college semesters of organic chemistry in high school. Most of my life I wanted to be a doctor, inspired by the many foot and knee surgeries I had growing up. I don't have half of my left ankle due to club foot, and I have no feeling in my entire right knee.</li>
                 <li>For the summer of 2022, I lived at <a className="underline text-link" href="https://www.businessinsider.com/facebook-house-inside-palo-alto-home-mark-zuckerberg-la-jennifer-2017-12" target="_blank" rel="noopener noreferrer">819 La Jennifer Way</a> with a bunch of GSB students</li>
                 <li>In 2020, I co-founded a startup <a className="underline text-link" href="https://hyphora.org" target="_blank" rel="noopener noreferrer">Hyphora</a> in EdTech, where I learned marketing / product</li>
                 <li>I'm a big fan of spending time on farms, starting with a month on a dairy farm in Southern Virginia in 2018, and most recently a couple of weeks on a donkey refuge in Arizona</li>
