@@ -14,7 +14,7 @@ function About() {
                 My journey in tech started early - from tinkering with terminals and writing scripts in elementary school to building my first computer before high school. Now, I code for a living, enjoying the problem-solving, logical, and precise aspects of computation. I feel fortunate to pursue my interests professionally.
             </p>
             <p className="mb-4">
-                While my focus is primarily on CS, my interests are broad. I've explored finance, chemistry, and computer science both academically and professionally. Currently, I'm optimizing my life to maximize <i>experience</i>.
+                While my focus is primarily on CS, I don't consider myself a computer scientist. I've explored finance, chemistry, and computer science both academically and professionally. Currently, I'm optimizing my life to maximize <i>experience</i>.
             </p>
             <p className="mb-4">
                 For more fun facts about me, check out the <a className="underline text-link" href="/fun">Fun</a> section. Welcome to my website!
