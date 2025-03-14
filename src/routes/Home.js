@@ -7,7 +7,7 @@ function Home() {
 
     const links = [
         { label: 'Existing', url: '/about' },
-        { label: 'Coding', url: '/technology' },
+        { label: 'Working', url: '/technology' },
         { label: 'Researching', url: '/research' },
         { label: 'Teaching', url: '/teach' },
         { label: 'Writing', url: '/write'},
