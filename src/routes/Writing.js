@@ -1,9 +1,15 @@
 import React from "react";
 import ContentContainer from "../components/ContentContainer";
+import SEO from "../components/SEO";
 
 function Writing() {
     return (
         <ContentContainer>
+            <SEO 
+                title="Writing"
+                description="Ray Del Vecchio's writing - articles on transformers, AI threads, and technical explainers on X."
+                path="/write"
+            />
             <h1 className="text-center text-4xl font-bold mb-8">
                 I write infrequently.
             </h1>

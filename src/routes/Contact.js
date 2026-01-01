@@ -1,29 +1,25 @@
 import React from "react";
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
 import ContentContainer from "../components/ContentContainer";
+import SEO from "../components/SEO";
 
 function Contact() {
     return (
         <ContentContainer>
+            <SEO 
+                title="Contact"
+                description="Get in touch with Ray Del Vecchio - email, Telegram, LinkedIn, Github, and X."
+                path="/contact"
+            />
             <h1 className="text-center text-4xl font-bold mb-8">
                 Get in touch.
             </h1>
             <div className="space-y-4 text-center">
-                <p>Personal Email: <a className="underline text-link" href="mailto:xraydelv@gmail.com">xraydelv@gmail.com</a></p>
-                <p>Work Email: <a className="underline text-link" href="mailto:ray@cerebralvalley.ai">ray@cerebralvalley.ai</a></p>
-                <p>Telegram: <a className="underline text-link" href="https://web.telegram.org">@rayd0x</a></p>
-            </div>
-            <div className="flex justify-center gap-6 mt-8">
-                <a href="https://www.linkedin.com/in/raymond-del-vecchio/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-highlight transition-colors duration-200">
-                    <FaLinkedin size={32} />
-                </a>
-                <a href="https://github.com/raydelvecchio" target="_blank" rel="noopener noreferrer" className="text-black hover:text-highlight transition-colors duration-200">
-                    <FaGithub size={32} />
-                </a>
-                <a href="https://x.com/raydelvecc" target="_blank" rel="noopener noreferrer" className="text-black hover:text-highlight transition-colors duration-200">
-                    <FaXTwitter size={32} />
-                </a>
+                <p><a className="underline text-link" href="mailto:xraydelv@gmail.com">Personal Email</a></p>
+                <p><a className="underline text-link" href="mailto:ray@cerebralvalley.ai">Work Email</a></p>
+                <p><a className="underline text-link" href="https://web.telegram.org">Telegram</a></p>
+                <p><a className="underline text-link" href="https://linkedin.com/in/raymond-del-vecchio" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+                <p><a className="underline text-link" href="https://github.com/raydelvecchio" target="_blank" rel="noopener noreferrer">Github</a></p>
+                <p><a className="underline text-link" href="https://x.com/raydelvecc" target="_blank" rel="noopener noreferrer">X</a></p>
             </div>
         </ContentContainer>
     );

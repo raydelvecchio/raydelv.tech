@@ -1,9 +1,15 @@
 import React from "react";
 import ContentContainer from "../components/ContentContainer";
+import SEO from "../components/SEO";
 
 function Teaching() {
     return (
         <ContentContainer>
+            <SEO 
+                title="Teaching"
+                description="Ray Del Vecchio's teaching experience - TA for Brown's Deep Learning course, Entrepreneurial Management, and Taekwondo instructor."
+                path="/teach"
+            />
             <h1 className="text-center text-4xl font-bold mb-8">
                 Sharing knowledge.
             </h1>

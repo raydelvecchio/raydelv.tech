@@ -1,9 +1,15 @@
 import React from "react";
 import ContentContainer from "../components/ContentContainer";
+import SEO from "../components/SEO";
 
 function Misc() {
     return (
         <ContentContainer>
+            <SEO 
+                title="Fun Facts"
+                description="Fun facts about Ray Del Vecchio - black belt in Taekwondo, amateur DJ, debate champion, and more personal interests."
+                path="/fun"
+            />
             <h1 className="text-center text-4xl font-bold mb-8">
                 Get to know me with these facts.
             </h1>

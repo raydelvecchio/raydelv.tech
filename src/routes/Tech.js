@@ -1,9 +1,15 @@
 import React from "react";
 import ContentContainer from "../components/ContentContainer";
+import SEO from "../components/SEO";
 
 function Tech() {
     return (
         <ContentContainer>
+            <SEO 
+                title="Technology"
+                description="Ray Del Vecchio's engineering work - Co-Founder at Cerebral Valley, founding engineer at Nima Capital, many personal projects."
+                path="/technology"
+            />
             <h1 className="text-center text-4xl font-bold mb-8">
                 I've done some engineering.
             </h1>

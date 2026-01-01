@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 function Home() {
     const navigate = useNavigate();
@@ -20,6 +21,10 @@ function Home() {
 
     return (
         <div className="min-h-screen flex flex-col items-center justify-center px-4">
+            <SEO 
+                description="Ray Del Vecchio - 23-year-old software engineer and co-founder at Cerebral Valley. Experienced in AI, full-stack development, and research. Based in SF/NYC."
+                path="/"
+            />
             <div className="w-full max-w-2xl">
                 <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">
                     Hey, I'm <span className="text-highlight">Ray</span>! Here are some things I do.
@@ -36,7 +41,6 @@ function Home() {
                     ))}
                 </div>
             </div>
-            <SocialLinks />
         </div>
     );
 }

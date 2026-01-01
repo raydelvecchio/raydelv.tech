@@ -1,9 +1,15 @@
 import React from "react";
 import ContentContainer from "../components/ContentContainer";
+import SEO from "../components/SEO";
 
 function Research() {
     return (
         <ContentContainer>
+            <SEO 
+                title="Research"
+                description="Ray Del Vecchio's research experience - ISEF finalist, proteomics research at GMU, deep learning research at Brown University's PALM lab."
+                path="/research"
+            />
             <h1 className="text-center text-4xl font-bold mb-8">
                 My research experience.
             </h1>

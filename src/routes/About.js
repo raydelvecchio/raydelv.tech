@@ -1,9 +1,15 @@
 import React from "react";
 import ContentContainer from "../components/ContentContainer";
+import SEO from "../components/SEO";
 
 function About() {
     return (
         <ContentContainer>
+            <SEO 
+                title="About"
+                description="Learn about Ray Del Vecchio - 23-year-old software engineer from Clifton, VA. Brown University CS dropout, currently based in San Francisco and NYC."
+                path="/about"
+            />
             <h1 className="text-center text-4xl font-bold mb-8">
                 A little about me.
             </h1>
