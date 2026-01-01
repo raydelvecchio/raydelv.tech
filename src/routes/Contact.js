@@ -1,6 +1,16 @@
 import React from "react";
 import ContentContainer from "../components/ContentContainer";
 import SEO from "../components/SEO";
+import Link from "../components/Link";
+
+const links = [
+    { label: "Personal Email", href: "mailto:xraydelv@gmail.com" },
+    { label: "Work Email", href: "mailto:ray@cerebralvalley.ai" },
+    { label: "Telegram", href: "https://web.telegram.org" },
+    { label: "LinkedIn", href: "https://linkedin.com/in/raymond-del-vecchio" },
+    { label: "Github", href: "https://github.com/raydelvecchio" },
+    { label: "X", href: "https://x.com/raydelvecc" },
+];
 
 function Contact() {
     return (
@@ -14,12 +24,7 @@ function Contact() {
                 Get in touch.
             </h1>
             <div className="space-y-4 text-center">
-                <p><a className="underline text-link" href="mailto:xraydelv@gmail.com">Personal Email</a></p>
-                <p><a className="underline text-link" href="mailto:ray@cerebralvalley.ai">Work Email</a></p>
-                <p><a className="underline text-link" href="https://web.telegram.org">Telegram</a></p>
-                <p><a className="underline text-link" href="https://linkedin.com/in/raymond-del-vecchio" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-                <p><a className="underline text-link" href="https://github.com/raydelvecchio" target="_blank" rel="noopener noreferrer">Github</a></p>
-                <p><a className="underline text-link" href="https://x.com/raydelvecc" target="_blank" rel="noopener noreferrer">X</a></p>
+                {links.map((l, i) => <p key={i}><Link href={l.href}>{l.label}</Link></p>)}
             </div>
         </ContentContainer>
     );
