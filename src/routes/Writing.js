@@ -4,6 +4,7 @@ import SEO from "../components/SEO";
 import Link from "../components/Link";
 
 const articles = [
+    { title: "Why Macron's €30M AI Investment is Fundamentally Wrong", href: "https://x.com/raydelvecc/status/2020561562155786560"},
     { title: "How Do Transformers Work, Really? A intuitive explanation.", href: "https://medium.com/@raymond_del_vecchio/how-do-transformers-work-really-96fff8fe25c9" },
     { title: "High School Guide to Science Fair", href: "/CVHS_Guide_To_Science_Fair.pdf" },
 ];
