@@ -4,7 +4,7 @@ import SEO from "../components/SEO";
 import Link from "../components/Link";
 
 const items = [
-    <>I'm a Co-Founder of <Link href="https://cerebralvalley.ai">Cerebral Valley</Link>, where I focus on search, backend, scraping, and various engineering tasks, while also leading government/defense initiatives, organizing community events, and handling operational responsibilities. I originally joined as Founding Engineer, but proved quite valuable in many other aspects of the business, and was retroactively granted founding equity & title.</>,
+    <>I'm currently Co-Founder of <Link href="https://cv.inc/about">Cerebral Valley</Link>, the world's most premier AI ecosystem.</>,
     <>For ~2.5 years, I was the first engineering hire on Nima Capital's liquid strategy team (at 19 yo), managing cloud infrastructure, automating trading strategies, building MEV bots, AI engineering for VC workflow and equities analysis, sourcing / diligencing founders, and writing various internal tools for social media and alerting.</>,
     <><Link href="https://github.com/raydelvecchio/lazytorch">LazyTorch</Link>: basic PyTorch implemented sequentially (no parallelization) directly in vanilla Python. Complete with Autodiff, Tensors, Loss Functions, Activations, Layers, and full Network abstractions, ready to train on!</>,
     <><Link href="https://github.com/raghavpillai/eXpect">eXpect</Link>: agentic simulation to predict sentiment and responses from your own X followers for any poll or post. 2nd place in the first <Link href="https://x.ai">x.ai</Link> hackathon, featured on their main account <Link href="https://x.com/xai/status/1846989686549696900">here</Link>.</>,
