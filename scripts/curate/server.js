@@ -123,16 +123,16 @@ const publish = async (id) => {
     mkdirSync(OUT_DIR, { recursive: true });
     const input = await decodable(id);
     const full = join(OUT_DIR, `${id}.jpg`);
-    const display = join(OUT_DIR, `${id}-${DISPLAY_EDGE}.webp`);
+    const display = join(OUT_DIR, `${id}-${DISPLAY_EDGE}.jpg`);
     await run(['magick', input, '-auto-orient', '-strip', '-quality', String(FULL_QUALITY), '-interlace', 'JPEG', full]);
-    await run(['magick', full, '-resize', `${DISPLAY_EDGE}x${DISPLAY_EDGE}>`, '-quality', String(DISPLAY_QUALITY), display]);
+    await run(['magick', full, '-resize', `${DISPLAY_EDGE}x${DISPLAY_EDGE}>`, '-quality', String(DISPLAY_QUALITY), '-interlace', 'JPEG', '-strip', display]);
     const [width, height] = (await run(['magick', 'identify', '-format', '%w %h', full])).split(' ').map(Number);
     return { width, height };
 };
 
 const unpublish = (id) => {
     rmSync(join(OUT_DIR, `${id}.jpg`), { force: true });
-    rmSync(join(OUT_DIR, `${id}-${DISPLAY_EDGE}.webp`), { force: true });
+    rmSync(join(OUT_DIR, `${id}-${DISPLAY_EDGE}.jpg`), { force: true });
 };
 
 const status = () => {

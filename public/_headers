@@ -1,0 +1,5 @@
+/gaeta
+  X-Robots-Tag: noindex, nofollow, noimageindex, noarchive
+
+/galleries/gaeta/*
+  X-Robots-Tag: noindex, noimageindex

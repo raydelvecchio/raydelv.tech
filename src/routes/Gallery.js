@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import './Gallery.css';
 
@@ -18,15 +18,30 @@ const sources = (slug, photo) => {
     const displayWidth = Math.min(DISPLAY_EDGE, photo.width >= photo.height ? photo.width : Math.round((photo.width * DISPLAY_EDGE) / photo.height));
     return {
         full: `${base}.jpg`,
-        display: `${base}-${DISPLAY_EDGE}.webp`,
-        srcSet: `${base}-${DISPLAY_EDGE}.webp ${displayWidth}w, ${base}.jpg ${photo.width}w`,
+        display: `${base}-${DISPLAY_EDGE}.jpg`,
+        srcSet: `${base}-${DISPLAY_EDGE}.jpg ${displayWidth}w, ${base}.jpg ${photo.width}w`,
     };
 };
 
 function Lightbox({ slug, photos, index, onClose, onStep }) {
     const [zoomed, setZoomed] = useState(false);
+    const touch = useRef(null);
     const photo = photos[index];
-    const { full, display } = sources(slug, photo);
+    const { full, display, srcSet } = sources(slug, photo);
+
+    const onTouchStart = (e) => {
+        if (zoomed || e.touches.length !== 1) return;
+        touch.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+    };
+    const onTouchEnd = (e) => {
+        const start = touch.current;
+        touch.current = null;
+        if (!start) return;
+        const dx = e.changedTouches[0].clientX - start.x;
+        const dy = e.changedTouches[0].clientY - start.y;
+        if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) onStep(dx < 0 ? 1 : -1);
+        else if (dy > 90 && Math.abs(dy) > Math.abs(dx) * 1.5) onClose();
+    };
 
     useEffect(() => setZoomed(false), [index]);
 
@@ -46,9 +61,16 @@ function Lightbox({ slug, photos, index, onClose, onStep }) {
 
     return (
         <div className="gallery-lightbox" role="dialog" aria-modal="true" onClick={onClose}>
-            <div className={`gallery-lightbox-stage${zoomed ? ' is-zoomed' : ''}`}>
+            <div
+                className={`gallery-lightbox-stage${zoomed ? ' is-zoomed' : ''}`}
+                onTouchStart={onTouchStart}
+                onTouchEnd={onTouchEnd}
+            >
                 <img
-                    src={full}
+                    key={`${photo.id}-${zoomed}`}
+                    src={zoomed ? full : display}
+                    srcSet={zoomed ? undefined : srcSet}
+                    sizes="100vw"
                     alt={photo.caption}
                     width={photo.width}
                     height={photo.height}
@@ -66,7 +88,7 @@ function Lightbox({ slug, photos, index, onClose, onStep }) {
                     {photo.caption}
                 </span>
                 <button type="button" onClick={() => onStep(1)} aria-label="Next">→</button>
-                <button type="button" onClick={onClose} aria-label="Close">✕</button>
+                <button type="button" className="gallery-lightbox-close" onClick={onClose} aria-label="Close">✕</button>
             </div>
         </div>
     );

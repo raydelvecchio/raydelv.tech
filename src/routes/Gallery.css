@@ -37,10 +37,12 @@
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--muted);
+    white-space: nowrap;
 }
 
 .gallery-rule {
     flex: 0 1 72px;
+    min-width: 16px;
     height: 1px;
     background: currentColor;
     opacity: 0.6;
@@ -122,8 +124,10 @@
     transition: transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
-.gallery-frame:hover img {
-    transform: scale(1.012);
+@media (hover: hover) {
+    .gallery-frame:hover img {
+        transform: scale(1.012);
+    }
 }
 
 .gallery-plate.is-portrait .gallery-frame img {
@@ -160,6 +164,7 @@
     font-size: clamp(18px, 1.7vw, 23px);
     line-height: 1.4;
     max-width: 62ch;
+    overflow-wrap: anywhere;
 }
 
 .gallery-fine {
@@ -176,12 +181,16 @@
 
 .gallery-lightbox {
     position: fixed;
-    inset: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 50;
     display: grid;
-    grid-template-rows: 1fr auto;
-    background: rgba(245, 239, 228, 0.97);
-    backdrop-filter: blur(6px);
+    grid-template-rows: minmax(0, 1fr) auto;
+    height: 100vh;
+    height: 100dvh;
+    background: var(--travertine);
 }
 
 .gallery-lightbox-stage {
@@ -190,6 +199,7 @@
     place-items: center;
     padding: 24px;
     overflow: hidden;
+    touch-action: pan-y pinch-zoom;
 }
 
 .gallery-lightbox-stage img {
@@ -206,6 +216,8 @@
     display: block;
     overflow: auto;
     padding: 0;
+    touch-action: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .gallery-lightbox-stage.is-zoomed img {
@@ -218,7 +230,7 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: 14px clamp(16px, 4vw, 40px) 20px;
+    padding: 14px clamp(16px, 4vw, 40px) max(20px, env(safe-area-inset-bottom));
     border-top: 1px solid var(--line);
     color: var(--ink);
 }
@@ -236,13 +248,14 @@
 
 .gallery-lightbox-bar button {
     flex: none;
-    width: 42px;
-    height: 42px;
+    width: 48px;
+    height: 48px;
     border: 1px solid var(--line);
     background: var(--plaster);
     color: var(--ink);
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .gallery-lightbox-bar button:hover {
@@ -251,6 +264,29 @@
 }
 
 @media (max-width: 700px) {
+    .gallery-kicker {
+        gap: 10px;
+        letter-spacing: 0.16em;
+    }
+
+    .gallery-lightbox-stage {
+        padding: 12px 0;
+    }
+
+    .gallery-lightbox-bar {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .gallery-lightbox-caption {
+        order: -1;
+        flex-basis: 100%;
+    }
+
+    .gallery-lightbox-close {
+        margin-left: auto;
+    }
+
     .gallery-plates {
         gap: 56px;
     }
@@ -262,6 +298,6 @@
     }
 
     .gallery-lightbox-caption {
-        font-size: 15px;
+        font-size: 17px;
     }
 }

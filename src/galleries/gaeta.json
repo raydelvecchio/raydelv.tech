@@ -1,0 +1,486 @@
+{
+  "title": "Gaeta",
+  "subtitle": "Lazio, Italia",
+  "photos": [
+    {
+      "id": "IMG_4124",
+      "caption": "The night I landed, testing the camera",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4125",
+      "caption": "View from my bedroom",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4126",
+      "caption": "Fruit tree next to me",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4128",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4132",
+      "caption": "Looking out from the villa doors",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4133",
+      "caption": "Orange tree in front of the main villa",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4134",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4135",
+      "caption": "Where I'm staying",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4136",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4137",
+      "caption": "The fruit tree garden",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4138",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4140",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4144",
+      "caption": "Water peeking through the trees",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4151",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4152",
+      "caption": "1st century Roman construction gated off on the grounds",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4153",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4154",
+      "caption": "A stone bench",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4155",
+      "caption": "An old stone arch, apparently Roman",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4157",
+      "caption": "Seated beneath the mountains",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4158",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4165",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4168",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4169",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4170",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4171",
+      "caption": "Before walking into town",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4172",
+      "caption": "A cat poking through the trees",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4173",
+      "caption": "The same cat chillin",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4174",
+      "caption": "Ancient roman construction below the property",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4175",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4176",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4178",
+      "caption": "Apartments along the Lungomare Giovanni Caboto",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4179",
+      "caption": "Old ruins along the Lungomare Giovanni Caboto",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4180",
+      "caption": "1940's religious art in Gaeta",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4181",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4182",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4185",
+      "caption": "The docked USS Mount Whitney at Gaeta NATO Naval base",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4186",
+      "caption": "The USS Mount Whitney among the hills of Gaeta",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4188",
+      "caption": "Boats in the Port of Gaeta",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4189",
+      "caption": "Carousel by the port",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4190",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4191",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4192",
+      "caption": "An ice dragon for some reason",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4193",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4194",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4195",
+      "caption": "Holiday decorations along the Via Indipendenza",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4196",
+      "caption": "More decor in the Via Indipendenza",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4197",
+      "caption": "Stairs to the Chiesa dei SS. Cosma e Damiano",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4198",
+      "caption": "Clock tower of the Chiesa dei SS. Cosma e Damiano",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4199",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4200",
+      "caption": "Atop the stairs in front of the Chiesa dei SS. Cosma e Damiano",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4201",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4202",
+      "caption": "Belltower of the Chiesa dei SS. Cosma e Damiano",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4203",
+      "caption": "Neighborhood by the church",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4204",
+      "caption": "Religious figurine in the wall",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4205",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4206",
+      "caption": "Side street off the Via Indipendenza",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4207",
+      "caption": "Further down the Via Indipendenza",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4208",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4209",
+      "caption": "Mural along the Via Indipendenza",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4210",
+      "caption": "Via del Piano #16a",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4211",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4212",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4213",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4215",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4216",
+      "caption": "A bird flies over the water",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4217",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4219",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4221",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4222",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4223",
+      "caption": "A NATO helicopter flies in",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4226",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4227",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4228",
+      "caption": "I'm thinking about it",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4229",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4230",
+      "caption": "An abandoned building window opens to reveal a library of old books along the Lungomare Giovanni Caboto",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4233",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4234",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4236",
+      "caption": "Gaeta main town in the distance, viewed from the Lungomare Giovanni Caboto",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4237",
+      "caption": "",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "IMG_4238",
+      "caption": "Cool groundskeeping machinery",
+      "width": 6000,
+      "height": 4000
+    }
+  ]
+}
