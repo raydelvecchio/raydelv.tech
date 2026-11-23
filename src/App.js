@@ -8,6 +8,8 @@ import Tech from "./routes/Tech";
 import About from "./routes/About";
 import Teaching from "./routes/Teaching";
 import Writing from "./routes/Writing";
+import Gallery from "./routes/Gallery";
+import galleries from "./galleries";
 
 function App() {
     return (
@@ -21,6 +23,9 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/teach" element={<Teaching />} />
                 <Route path="/write" element={<Writing />} />
+                {galleries.map((gallery) => (
+                    <Route key={gallery.slug} path={`/${gallery.slug}`} element={<Gallery gallery={gallery} />} />
+                ))}
                 <Route path="*" element={<Home />} />
             </Routes>
         </Router>

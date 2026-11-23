@@ -14,7 +14,8 @@
   },
   "scripts": {
     "start": "bun run react-scripts start",
-    "build": "bun run react-scripts build"
+    "build": "bun run react-scripts build",
+    "curate": "bun scripts/curate/server.js"
   },
   "eslintConfig": {
     "extends": [
