@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Curator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --travertine: #f5efe4;
+    --plaster: #fbf8f2;
+    --ink: #2a241d;
+    --muted: #8a7d6b;
+    --terracotta: #b4532f;
+    --mare: #2f5d7c;
+    --olive: #6d7445;
+    --line: #e2d8c6;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background: var(--travertine);
+    color: var(--ink);
+    font-family: Inter, system-ui, sans-serif;
+    display: grid;
+    grid-template-rows: auto auto minmax(0, 1fr) auto;
+    overflow: hidden;
+  }
+  header {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 16px;
+    padding: 18px 28px; border-bottom: 1px solid var(--line);
+  }
+  h1 { margin: 0; font-family: 'Bodoni Moda', serif; font-weight: 500; font-size: 26px; letter-spacing: .02em; }
+  h1 em { color: var(--terracotta); }
+  .meta { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .meta b { color: var(--ink); font-weight: 600; }
+  .progress { height: 2px; background: var(--line); }
+  .progress > div { height: 100%; background: var(--terracotta); width: 0; transition: width .3s; }
+  main { position: relative; min-height: 0; display: grid; place-items: center; padding: 20px; overflow: hidden; }
+  main img {
+    position: absolute; inset: 20px; width: calc(100% - 40px); height: calc(100% - 40px);
+    object-fit: contain; display: block;
+    transition: opacity .15s;
+  }
+  main img.loading { opacity: .25; }
+  .id {
+    position: absolute; top: 24px; left: 28px; font-size: 12px; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--muted);
+  }
+  .done { text-align: center; font-family: 'Bodoni Moda', serif; font-size: 28px; }
+  .done p { font-family: Inter, sans-serif; font-size: 14px; color: var(--muted); }
+  footer {
+    display: grid; grid-template-columns: auto 1fr auto auto; gap: 12px; align-items: center;
+    padding: 16px 28px 22px; border-top: 1px solid var(--line); background: var(--plaster);
+  }
+  input {
+    width: 100%; font: inherit; font-size: 16px; padding: 14px 16px; border: 1px solid var(--line);
+    background: #fff; color: var(--ink); outline: none; border-radius: 0;
+  }
+  input:focus { border-color: var(--mare); }
+  button {
+    font: inherit; font-weight: 600; font-size: 14px; letter-spacing: .06em; text-transform: uppercase;
+    padding: 14px 22px; border: 0; cursor: pointer; color: #fff;
+    clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+    padding-inline: 30px;
+  }
+  button:disabled { opacity: .4; cursor: default; }
+  .yes { background: var(--olive); }
+  .no { background: var(--terracotta); }
+  .undo { background: transparent; color: var(--muted); clip-path: none; padding-inline: 8px; }
+  kbd { font-family: inherit; font-size: 11px; opacity: .7; margin-left: 6px; }
+  .toast {
+    position: fixed; bottom: 96px; left: 50%; transform: translateX(-50%);
+    background: var(--ink); color: var(--plaster); padding: 10px 16px; font-size: 13px;
+    opacity: 0; transition: opacity .2s; pointer-events: none;
+  }
+  .toast.show { opacity: 1; }
+  @media (max-width: 700px) {
+    header, footer { padding-inline: 16px; }
+    footer { grid-template-columns: 1fr 1fr; }
+    footer input { grid-column: 1 / -1; order: -1; }
+    .undo { grid-column: 1 / -1; order: 3; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Curating <em id="title">…</em></h1>
+  <div class="meta"><b id="kept">0</b> kept · <span id="skipped">0</span> skipped · <span id="left">0</span> left</div>
+</header>
+<div class="progress"><div id="bar"></div></div>
+<main id="stage"><span class="id" id="photoId"></span><img id="photo" alt=""></main>
+<footer>
+  <button class="undo" id="undo" title="Undo last (⌘Z)">↶ Undo</button>
+  <input id="caption" placeholder="Caption (optional), Enter keeps it" autocomplete="off">
+  <button class="no" id="no">No<kbd>⌘⌫</kbd></button>
+  <button class="yes" id="yes">Yes<kbd>↵</kbd></button>
+</footer>
+<div class="toast" id="toast"></div>
+<script>
+  const $ = (id) => document.getElementById(id);
+  let state = null;
+  let working = false;
+
+  const toast = (msg) => {
+    $('toast').textContent = msg;
+    $('toast').classList.add('show');
+    clearTimeout(toast.t);
+    toast.t = setTimeout(() => $('toast').classList.remove('show'), 1800);
+  };
+
+  const prefetch = (ids) => ids.forEach((id) => { new Image().src = `/preview/${encodeURIComponent(id)}`; });
+
+  const render = (next, captionText = '') => {
+    state = next;
+    $('title').textContent = state.title;
+    $('kept').textContent = state.kept;
+    $('skipped').textContent = state.skipped;
+    $('left').textContent = state.pending.length;
+    $('bar').style.width = `${((state.total - state.pending.length) / Math.max(state.total, 1)) * 100}%`;
+    $('undo').disabled = !state.canUndo;
+    const current = state.pending[0];
+    $('yes').disabled = $('no').disabled = !current;
+    $('caption').disabled = !current;
+    if (!current) {
+      $('stage').innerHTML = `<div class="done">Finito.<p>${state.kept} photos are in src/galleries/${state.slug}.json. Commit and push to publish /${state.slug}.</p></div>`;
+      return;
+    }
+    if (!$('photo')) $('stage').innerHTML = '<span class="id" id="photoId"></span><img id="photo" alt="">';
+    $('photoId').textContent = `${current} · ${state.total - state.pending.length + 1} / ${state.total}`;
+    const img = $('photo');
+    img.classList.add('loading');
+    img.onload = () => img.classList.remove('loading');
+    img.src = `/preview/${encodeURIComponent(current)}`;
+    $('caption').value = captionText;
+    $('caption').focus();
+    prefetch(state.pending.slice(1, 4));
+  };
+
+  const call = async (path, body) => {
+    if (working) return;
+    working = true;
+    document.body.style.cursor = 'progress';
+    try {
+      const res = await fetch(path, { method: body ? 'POST' : 'GET', headers: { 'Content-Type': 'application/json' }, body: body && JSON.stringify(body) });
+      const data = await res.json();
+      if (data.error) throw new Error(data.error);
+      return data;
+    } catch (e) {
+      toast(e.message);
+    } finally {
+      working = false;
+      document.body.style.cursor = '';
+    }
+  };
+
+  const keep = async () => {
+    const id = state?.pending[0];
+    if (!id) return;
+    $('yes').textContent = 'Saving…';
+    const next = await call('/api/keep', { id, caption: $('caption').value });
+    $('yes').innerHTML = 'Yes<kbd>↵</kbd>';
+    if (next) { toast(`Kept ${id}`); render(next); }
+  };
+  const skip = async () => {
+    const id = state?.pending[0];
+    if (!id) return;
+    const next = await call('/api/skip', { id });
+    if (next) render(next);
+  };
+  const undo = async () => {
+    const next = await call('/api/undo', {});
+    if (next) { toast(next.undone ? `Undid ${next.undone.type} of ${next.undone.id}` : 'Nothing to undo'); render(next, next.undone?.caption ?? ''); }
+  };
+
+  $('yes').onclick = keep;
+  $('no').onclick = skip;
+  $('undo').onclick = undo;
+  document.addEventListener('keydown', (e) => {
+    const mod = e.metaKey || e.ctrlKey;
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); keep(); }
+    else if (mod && e.key === 'Backspace') { e.preventDefault(); skip(); }
+    else if (mod && e.key === 'z') { e.preventDefault(); undo(); }
+  });
+
+  call('/api/status').then((s) => s && render(s));
+</script>
+</body>
+</html>
